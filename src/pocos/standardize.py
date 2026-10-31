@@ -138,7 +138,11 @@ def lithology_intervals(samples: pd.DataFrame, names: dict, step: float) -> pd.D
 
 
 def log_tops(exceptions: dict) -> pd.DataFrame:
-    """Topos indicados nos perfis: a primeira amostra de cada grupo e formação no CSV do FORCE."""
+    """Topos indicados nos perfis: o início de cada trecho contínuo de grupo e de formação.
+
+    Uma unidade pode aparecer mais de uma vez no mesmo poço (falha, injeção de areia,
+    repetição), então o topo é o começo de cada trecho, não a primeira amostra da unidade.
+    """
     sources = {
         "force/train.zip": lambda p: pd.read_csv(zipfile.ZipFile(p).open("train.csv"), sep=";"),
         "force/leaderboard_test_features.csv": lambda p: pd.read_csv(p, sep=";"),
@@ -149,7 +153,8 @@ def log_tops(exceptions: dict) -> pd.DataFrame:
         df = reader(RAW / name)[["WELL", "DEPTH_MD", "GROUP", "FORMATION"]]
         for level, col in (("GRUPO", "GROUP"), ("FORMACAO", "FORMATION")):
             d = df.dropna(subset=[col]).sort_values(["WELL", "DEPTH_MD"])
-            first = d.groupby(["WELL", col], sort=False)["DEPTH_MD"].min().reset_index()
+            starts = (d["WELL"] != d["WELL"].shift()) | (d[col] != d[col].shift())
+            first = d.loc[starts, ["WELL", col, "DEPTH_MD"]]
             frames.append(
                 pd.DataFrame(
                     {

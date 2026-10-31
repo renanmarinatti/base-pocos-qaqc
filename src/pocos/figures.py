@@ -182,6 +182,71 @@ def rule_matrix(problems: pd.DataFrame, notes: pd.DataFrame, rules: dict, path) 
     plt.close(fig)
 
 
+def tops_reconciliation(tops: pd.DataFrame, path) -> None:
+    """Como os topos se comparam com a Sodir, e quanto mudaram os que foram reinterpretados."""
+    order = [
+        "igual",
+        "deslocamento uniforme do poço",
+        "divergente",
+        "fora do trecho perfilado",
+        "só na Sodir",
+    ]
+    comps = [
+        ("npd_2020 × sodir", "cópia NPD 2020", "#A27FA6"),
+        ("perfil_force × sodir", "rótulos do perfil FORCE", BRAND),
+    ]
+    counts = tops.groupby(["comparacao", "situacao"]).size()
+
+    fig, (ax, bx) = plt.subplots(
+        1, 2, figsize=(12, 6.5), dpi=150, gridspec_kw={"width_ratios": [1, 1.1]}
+    )
+    fig.patch.set_facecolor(PAPER)
+    style(ax)
+    y = np.arange(len(order))
+    for i, (comp, label, color) in enumerate(comps):
+        vals = [counts.get((comp, o), 0) for o in order]
+        bars = ax.barh(y + (i - 0.5) * 0.38, vals, height=0.36, color=color, label=label)
+        for bar, v in zip(bars, vals, strict=True):
+            ax.text(
+                bar.get_width() + 20,
+                bar.get_y() + bar.get_height() / 2,
+                f"{v:,}".replace(",", "."),
+                va="center",
+                fontsize=7,
+                color=INK_2,
+            )
+    ax.set_yticks(y, order, fontsize=8, color=INK)
+    ax.invert_yaxis()
+    ax.set_xlabel("topos", color=INK_2, fontsize=8)
+    ax.set_title("Topos comparados com a Sodir de hoje", loc="left", fontsize=10, color=INK)
+    ax.legend(frameon=False, fontsize=8, labelcolor=INK, loc="lower right")
+
+    style(bx)
+    d = tops[(tops["comparacao"] == "npd_2020 × sodir") & (tops["situacao"] == "divergente")]
+    d = d.assign(delta=-d["delta_m"]).sort_values("delta")  # Sodir − 2020
+    labels = [f"{p} · {u.title()}" for p, u in zip(d["poco"], d["base"], strict=True)]
+    yy = np.arange(len(d))
+    bx.hlines(yy, 0, d["delta"], color=LINE, linewidth=1)
+    bx.scatter(d["delta"], yy, s=26, color=BRAND, zorder=3)
+    bx.axvline(0, color=INK_2, linewidth=0.8)
+    bx.set_yticks(yy, labels, fontsize=6.5, color=INK)
+    bx.set_xlabel(
+        "Sodir hoje − cópia de 2020 (m); positivo = topo mais fundo hoje", color=INK_2, fontsize=8
+    )
+    bx.set_title(f"{len(d)} topos reinterpretados desde 2020", loc="left", fontsize=10, color=INK)
+    fig.text(
+        0.01,
+        0.01,
+        "Igual: até 1 m. Deslocamento uniforme: vários topos do mesmo poço "
+        "movidos pelo mesmo valor (34/10-16 R, 3 m). " + SOURCE_NOTE,
+        fontsize=6.5,
+        color=INK_2,
+    )
+    fig.tight_layout(rect=(0, 0.03, 1, 1))
+    fig.savefig(path, facecolor=PAPER)
+    plt.close(fig)
+
+
 def run() -> None:
     wells = pd.read_parquet(INTERIM / "pocos.parquet")
     samples = pd.read_parquet(INTERIM / "amostras.parquet", columns=["poco", "md", "tvdss"])
@@ -196,6 +261,9 @@ def run() -> None:
             load_yaml("regras.yaml")["regras"],
             FIGURES / "e3_matriz_regras.png",
         )
+    tops_path = PROCESSED / "conciliacao_topos.csv"
+    if tops_path.exists():
+        tops_reconciliation(pd.read_csv(tops_path), FIGURES / "e4_topos.png")
 
 
 if __name__ == "__main__":

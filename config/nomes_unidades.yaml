@@ -1,0 +1,14 @@
+# Conciliação de nomes de unidades litoestratigráficas entre as três versões dos topos.
+#
+# A comparação usa o nome-base: maiúsculas, sem ponto, letras norueguesas transliteradas
+# (Ø → OE, Æ → AE, Å → AA) e sem o sufixo de nível (GP, FM, MB, SST, SS). Assim
+# "Statfjord Fm." (2020) e "STATFJORD GP" (hoje) se encontram, e a mudança de nível vira
+# informação, não divergência.
+#
+# Renomeações: nomes diferentes para a mesma unidade, aceitos com evidência (decisão D03).
+renomeadas:
+  BAAT: BRENT
+  ROTLIEGENDES: ROTLIEGEND
+
+# Marcadores sem nome formal na Sodir: não são unidades e não entram na comparação.
+marcadores_sem_nome: [NO FORMAL NAME, UNDIFFERENTIATED, NO GROUP DEFINED, UNDEFINED]

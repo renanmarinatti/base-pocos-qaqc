@@ -1,0 +1,205 @@
+{
+  "topos": {
+    "npd_2020 × sodir": {
+      "deslocamento uniforme do poço": 27,
+      "divergente": 26,
+      "fora do trecho perfilado": 0,
+      "igual": 2715,
+      "só em npd_2020": 1,
+      "só em perfil_force": 0,
+      "só na Sodir": 31
+    },
+    "perfil_force × sodir": {
+      "deslocamento uniforme do poço": 26,
+      "divergente": 23,
+      "fora do trecho perfilado": 616,
+      "igual": 2053,
+      "só em npd_2020": 0,
+      "só em perfil_force": 1,
+      "só na Sodir": 81
+    }
+  },
+  "topos_mudaram_de_nivel": 206,
+  "divergencia_abs_m": {
+    "npd_2020 × sodir": {
+      "count": 26.0,
+      "mean": 134.8,
+      "std": 104.5,
+      "min": 2.0,
+      "25%": 55.8,
+      "50%": 122.5,
+      "75%": 165.8,
+      "max": 409.0
+    },
+    "perfil_force × sodir": {
+      "count": 23.0,
+      "mean": 69.7,
+      "std": 101.6,
+      "min": 1.7,
+      "25%": 8.1,
+      "50%": 29.1,
+      "75%": 71.7,
+      "max": 352.1
+    }
+  },
+  "pocos_com_deslocamento_uniforme": [
+    {
+      "comparacao": "npd_2020 × sodir",
+      "poco": "34/10-16 R",
+      "delta_m": 3.0
+    },
+    {
+      "comparacao": "perfil_force × sodir",
+      "poco": "34/10-16 R",
+      "delta_m": 3.1
+    }
+  ],
+  "pocos_com_achado": 35,
+  "achados_pocos": [
+    {
+      "poco": "15/9-14",
+      "achados": "perfil 10 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "16/10-1",
+      "achados": "perfil 5 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "16/2-11 A",
+      "achados": "referência vertical -1.0 m da mesa rotativa da Sodir"
+    },
+    {
+      "poco": "16/7-5",
+      "achados": "perfil 8 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "16/8-1",
+      "achados": "perfil 12 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "25/11-15",
+      "achados": "referência vertical -0.5 m da mesa rotativa da Sodir"
+    },
+    {
+      "poco": "25/11-5",
+      "achados": "perfil 8 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "25/3-1",
+      "achados": "perfil 8 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "25/7-2",
+      "achados": "perfil 9 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "29/3-1",
+      "achados": "perfil 40 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "29/6-1",
+      "achados": "referência vertical +1.0 m da mesa rotativa da Sodir; perfil 5 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "30/3-3",
+      "achados": "perfil 17 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "30/3-5 S",
+      "achados": "perfil começa abaixo do ponto de desvio: posição e mesa não comparáveis"
+    },
+    {
+      "poco": "30/6-5",
+      "achados": "perfil 5 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "31/2-19 S",
+      "achados": "perfil 13 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "31/2-8",
+      "achados": "perfil 14 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "31/3-1",
+      "achados": "perfil 5 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "31/6-5",
+      "achados": "perfil 7 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "31/6-8",
+      "achados": "perfil 9 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "33/5-2",
+      "achados": "perfil 6 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/10-16 R",
+      "achados": "perfil 12 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/10-21",
+      "achados": "perfil 10 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/10-33",
+      "achados": "perfil 8 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/10-35",
+      "achados": "referência vertical -1.0 m da mesa rotativa da Sodir"
+    },
+    {
+      "poco": "34/2-4",
+      "achados": "perfil 6 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/6-1 S",
+      "achados": "referência vertical +0.6 m da mesa rotativa da Sodir"
+    },
+    {
+      "poco": "34/7-20",
+      "achados": "perfil 6 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/8-1",
+      "achados": "perfil 8 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/8-3",
+      "achados": "perfil 6 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "34/8-7 R",
+      "achados": "perfil 18 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "35/11-1",
+      "achados": "perfil 5 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "35/11-5",
+      "achados": "referência vertical -2.0 m da mesa rotativa da Sodir; perfil 12 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "35/12-1",
+      "achados": "perfil 8 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "35/9-6 S",
+      "achados": "perfil 10 m abaixo da profundidade final oficial"
+    },
+    {
+      "poco": "7/1-1",
+      "achados": "perfil 7 m abaixo da profundidade final oficial"
+    }
+  ],
+  "testemunhos": {
+    "com perfil": 499,
+    "perfil parcial": 1,
+    "sem perfil": 1
+  }
+}
