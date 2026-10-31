@@ -85,8 +85,13 @@ def presence_figure(las: pd.DataFrame, path: Path) -> None:
         cmap=plt.matplotlib.colors.ListedColormap(["#EDE9E0", BRAND]),
         interpolation="nearest",
     )
-    short = {"FORCE_2020_LITHOFACIES_LITHOLOGY": "LITOLOGIA", "FORCE_2020_LITHOFACIES_CONFIDENCE": "CONFIANÇA"}
-    ax.set_xticks(range(len(order)), [short.get(c, c) for c in order], rotation=90, fontsize=7, color=INK)
+    short = {
+        "FORCE_2020_LITHOFACIES_LITHOLOGY": "LITOLOGIA",
+        "FORCE_2020_LITHOFACIES_CONFIDENCE": "CONFIANÇA",
+    }
+    ax.set_xticks(
+        range(len(order)), [short.get(c, c) for c in order], rotation=90, fontsize=7, color=INK
+    )
     ax.set_yticks([])
     ax.set_ylabel(f"{len(wells)} poços (ordem alfabética)", color=INK_2, fontsize=8)
     for spine in ax.spines.values():
@@ -94,13 +99,18 @@ def presence_figure(las: pd.DataFrame, path: Path) -> None:
     share = pd.Series([sum(col) for col in zip(*matrix, strict=True)], index=order) / len(wells)
     ax.set_title(
         "Curvas declaradas no cabeçalho de cada LAS do FORCE 2020 (roxo = declarada)",
-        loc="left", fontsize=10, color=INK,
+        loc="left",
+        fontsize=10,
+        color=INK,
     )
     fig.text(
-        0.01, 0.01,
+        0.01,
+        0.01,
         f"GR em {share.get('GR', 0):.0%} dos poços; DTS em {share.get('DTS', 0):.0%}; "
-        f"PEF em {share.get('PEF', 0):.0%}. Fonte: FORCE 2020, Zenodo 10.5281/zenodo.4351156 (CC BY 4.0).",
-        fontsize=7.5, color=INK_2,
+        f"PEF em {share.get('PEF', 0):.0%}. "
+        "Fonte: FORCE 2020, Zenodo 10.5281/zenodo.4351156 (CC BY 4.0).",
+        fontsize=7.5,
+        color=INK_2,
     )
     fig.tight_layout(rect=(0, 0.04, 1, 1))
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -132,8 +142,9 @@ def run() -> dict:
             "curvas_distintas": len(curves),
             "curvas_por_poco": curves.to_dict(),
             "com_ramal": int(las["poco_arquivo"].str.contains(r"\s").sum()),
-            "uwi_diferente_do_arquivo": las.loc[~las["uwi_bate_arquivo"], ["arquivo", "uwi"]]
-            .to_dict("records"),
+            "uwi_diferente_do_arquivo": las.loc[
+                ~las["uwi_bate_arquivo"], ["arquivo", "uwi"]
+            ].to_dict("records"),
         },
         "sodir": {
             "pocos": len(sodir),
@@ -155,4 +166,8 @@ def run() -> dict:
 
 if __name__ == "__main__":
     s = run()
-    print(json.dumps({k: v for k, v in s.items() if k != "fontes"}, ensure_ascii=False, indent=1)[:3000])
+    print(
+        json.dumps({k: v for k, v in s.items() if k != "fontes"}, ensure_ascii=False, indent=1)[
+            :3000
+        ]
+    )

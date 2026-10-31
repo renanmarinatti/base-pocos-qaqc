@@ -1,0 +1,13 @@
+# Poços do FORCE sem par exato na Sodir, e a qual ramal oficial cada um corresponde.
+#
+# A regra geral (código) troca '_' por '/' no nome do arquivo. Estes são os casos em que a
+# regra não basta. Cada um tem uma decisão no registro (docs/decisoes.md) com a evidência:
+# a padronização só aceita o par se a posição e a profundidade final baterem.
+#
+# T4 e ST3 são desvios técnicos (technical sidetracks): o furo é desviado, em geral por
+# problema operacional, sem mudar o objetivo. A Sodir não registra desvio técnico como
+# ramal próprio; o perfil fica no ramal de origem.
+
+excecoes:
+  "16/11-1 ST3": {sodir: "16/11-1 S", decisao: D01}
+  "25/2-13 T4":  {sodir: "25/2-13",   decisao: D02}

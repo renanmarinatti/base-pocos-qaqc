@@ -1,0 +1,37 @@
+# Catálogo de curvas: nome canônico, unidade esperada, apelidos e faixa física plausível.
+#
+# A padronização (E2) troca apelido por nome canônico e registra cada troca. A faixa física
+# é usada pelas regras de qualidade (E3): valor fora dela é fisicamente impossível ou
+# indica falha de ferramenta. As faixas são deliberadamente largas — a regra pega o
+# impossível, não o incomum.
+
+curvas:
+  GR:        {unidade: gAPI,   faixa: [0, 500],     descricao: raios gama naturais}
+  SGR:       {unidade: gAPI,   faixa: [0, 500],     descricao: raios gama espectral (total)}
+  RHOB:      {unidade: g/cm3,  faixa: [1.0, 3.2],   descricao: densidade da formação}
+  DRHO:      {unidade: g/cm3,  faixa: [-1.0, 1.0],  descricao: correção da densidade (controle de qualidade)}
+  NPHI:      {unidade: m3/m3,  faixa: [-0.15, 1.0], descricao: porosidade neutrão}
+  PEF:       {unidade: b/e,    faixa: [0, 20],      descricao: fator fotoelétrico}
+  DTC:       {unidade: us/ft,  faixa: [40, 240],    descricao: vagarosidade compressional}
+  DTS:       {unidade: us/ft,  faixa: [60, 600],    descricao: vagarosidade cisalhante}
+  RDEP:      {unidade: ohm.m,  faixa: [0.01, 100000], descricao: resistividade profunda}
+  RMED:      {unidade: ohm.m,  faixa: [0.01, 100000], descricao: resistividade média}
+  RSHA:      {unidade: ohm.m,  faixa: [0.01, 100000], descricao: resistividade rasa}
+  RXO:       {unidade: ohm.m,  faixa: [0.01, 100000], descricao: resistividade da zona lavada}
+  RMIC:      {unidade: ohm.m,  faixa: [0.01, 100000], descricao: microrresistividade}
+  SP:        {unidade: mV,     faixa: [-500, 500],  descricao: potencial espontâneo}
+  CALI:      {unidade: in,     faixa: [4, 30],      descricao: diâmetro medido do poço (controle de qualidade)}
+  DCAL:      {unidade: in,     faixa: [-5, 15],     descricao: CALI menos BS (arrombamento)}
+  BS:        {unidade: in,     faixa: [4, 36],      descricao: diâmetro da broca}
+  ROP:       {unidade: m/h,    faixa: [0, 1000],    descricao: taxa de penetração}
+  ROPA:      {unidade: m/h,    faixa: [0, 1000],    descricao: taxa de penetração média}
+  MUDWEIGHT: {unidade: g/cm3,  faixa: [0.8, 2.6],   descricao: peso do fluido de perfuração}
+  DEPTH_MD:  {unidade: m,      faixa: [0, 10000],   descricao: profundidade medida (MD), a partir da mesa rotativa}
+  X_LOC:     {unidade: m,      faixa: [200000, 800000],   descricao: coordenada E da amostra (UTM 31N, ED50)}
+  Y_LOC:     {unidade: m,      faixa: [6000000, 8500000], descricao: coordenada N da amostra (UTM 31N, ED50)}
+  Z_LOC:     {unidade: m,      faixa: [-10000, 100],      descricao: cota vertical da amostra (TVDSS, negativa abaixo do mar)}
+  LITOLOGIA: {unidade: código, apelidos: [FORCE_2020_LITHOFACIES_LITHOLOGY], descricao: litologia interpretada (código FORCE)}
+  CONFIANCA: {unidade: "1-3",  apelidos: [FORCE_2020_LITHOFACIES_CONFIDENCE], descricao: confiança da interpretação (1 alta, 3 baixa)}
+
+# Apelidos de caixa: a versão do GitHub escreve x_loc, y_loc, z_loc; a do Zenodo, em
+# maiúsculas. A comparação é sem caixa, e a troca é registrada do mesmo jeito.

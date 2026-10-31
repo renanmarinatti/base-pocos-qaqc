@@ -7,7 +7,9 @@ from pocos.inventory import well_name_from_file
 
 
 def test_sodir_file_carries_snapshot_date():
-    url, path = resolve({"tabela_sodir": "wellbore_core", "arquivo": "sodir/core_{snapshot}.csv"}, "2026-10-31")
+    url, path = resolve(
+        {"tabela_sodir": "wellbore_core", "arquivo": "sodir/core_{snapshot}.csv"}, "2026-10-31"
+    )
     assert "tableview/wellbore_core&" in url
     assert path.name == "core_2026-10-31.csv"
 

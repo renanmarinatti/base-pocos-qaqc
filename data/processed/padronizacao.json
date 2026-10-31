@@ -1,0 +1,37 @@
+{
+  "linhagem_zip_sha256": "042ef1d473100dc12768cae7107a8cead071a394f137af3bc1ddaf8a5d1b8dda",
+  "amostras": 2337639,
+  "pocos": 118,
+  "pocos_com_par_na_sodir": 118,
+  "passo_md": 0.152,
+  "trocas_de_nome": [
+    "FORCE_2020_LITHOFACIES_CONFIDENCE -> CONFIANCA",
+    "FORCE_2020_LITHOFACIES_LITHOLOGY -> LITOLOGIA"
+  ],
+  "curvas_fora_do_catalogo": [],
+  "unidade_divergente": [],
+  "unidade_divergente_pocos": 0,
+  "valores_nulos": 11251520,
+  "nulo_remanescente": 0,
+  "intervalos_de_litologia": 40299,
+  "codigos_de_litologia_desconhecidos": 0,
+  "topos_por_fonte": {
+    "npd_2020": 2769,
+    "perfil_force": 2225,
+    "sodir": 3041
+  },
+  "testemunhos": 501,
+  "testemunhos_convertidos_de_pes": 5,
+  "dist_force_sodir_m": {
+    "count": 118.0,
+    "mean": 23.8,
+    "std": 224.8,
+    "min": 0.0,
+    "25%": 0.4,
+    "50%": 1.2,
+    "75%": 3.5,
+    "max": 2444.3
+  },
+  "pocos_desviados_mais_de_50m": 20,
+  "md_menos_tvdss_no_topo_vs_mesa": 0.0
+}

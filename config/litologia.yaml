@@ -1,0 +1,14 @@
+# Códigos de litologia do FORCE 2020 (notebook inicial da competição) e o nome em português.
+litologia:
+  30000: arenito
+  65030: arenito/folhelho
+  65000: folhelho
+  80000: marga
+  74000: dolomito
+  70000: calcário
+  70032: giz
+  88000: halita
+  86000: anidrita
+  99000: tufo
+  90000: carvão
+  93000: embasamento
