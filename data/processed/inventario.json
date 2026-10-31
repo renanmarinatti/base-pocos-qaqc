@@ -1,0 +1,112 @@
+{
+  "fontes": [
+    {
+      "arquivo": "force/LAS_files_Force_2020_all_wells.zip",
+      "bytes": 169785172,
+      "licenca": "CC BY 4.0 (Zenodo, DOI 10.5281/zenodo.4351156); dado original do governo norueguês sob NLOD 2.0"
+    },
+    {
+      "arquivo": "force/NPD_Lithostratigraphy_groups_all_wells.xlsx",
+      "bytes": 80797,
+      "licenca": "CC BY 4.0 (Zenodo, DOI 10.5281/zenodo.4351156)"
+    },
+    {
+      "arquivo": "force/NPD_Lithostratigraphy_member_formations_all_wells.xlsx",
+      "bytes": 168501,
+      "licenca": "CC BY 4.0 (Zenodo, DOI 10.5281/zenodo.4351156)"
+    },
+    {
+      "arquivo": "force/hidden_test.csv",
+      "bytes": 30292497,
+      "licenca": "CC BY 4.0 (repositório bolgebrygg/Force-2020-Machine-Learning-competition)"
+    },
+    {
+      "arquivo": "force/leaderboard_test_features.csv",
+      "bytes": 31688732,
+      "licenca": "CC BY 4.0 (repositório bolgebrygg/Force-2020-Machine-Learning-competition)"
+    },
+    {
+      "arquivo": "force/train.zip",
+      "bytes": 91653972,
+      "licenca": "CC BY 4.0 (repositório bolgebrygg/Force-2020-Machine-Learning-competition)"
+    },
+    {
+      "arquivo": "sodir/wellbore_core_2026-10-31.csv",
+      "bytes": 612975,
+      "licenca": "NLOD 2.0 (Sodir FactPages)"
+    },
+    {
+      "arquivo": "sodir/wellbore_development_all_2026-10-31.csv",
+      "bytes": 4077300,
+      "licenca": "NLOD 2.0 (Sodir FactPages)"
+    },
+    {
+      "arquivo": "sodir/wellbore_exploration_all_2026-10-31.csv",
+      "bytes": 1721737,
+      "licenca": "NLOD 2.0 (Sodir FactPages)"
+    },
+    {
+      "arquivo": "sodir/wellbore_formation_top_2026-10-31.csv",
+      "bytes": 3314047,
+      "licenca": "NLOD 2.0 (Sodir FactPages)"
+    }
+  ],
+  "force": {
+    "arquivos_las": 118,
+    "megabytes": 620.0,
+    "unidade_prof": [
+      "m"
+    ],
+    "valores_nulo": [
+      -999.25
+    ],
+    "passos_m": [
+      0.152
+    ],
+    "curvas_distintas": 26,
+    "curvas_por_poco": {
+      "FORCE_2020_LITHOFACIES_CONFIDENCE": 118,
+      "FORCE_2020_LITHOFACIES_LITHOLOGY": 118,
+      "CALI": 118,
+      "RDEP": 118,
+      "DTC": 118,
+      "NPHI": 118,
+      "GR": 118,
+      "RHOB": 118,
+      "DEPTH_MD": 118,
+      "X_LOC": 118,
+      "Y_LOC": 118,
+      "Z_LOC": 118,
+      "RMED": 117,
+      "DRHO": 114,
+      "PEF": 88,
+      "BS": 83,
+      "RSHA": 82,
+      "SP": 76,
+      "ROP": 67,
+      "DTS": 46,
+      "RXO": 43,
+      "ROPA": 38,
+      "RMIC": 34,
+      "MUDWEIGHT": 29,
+      "DCAL": 28,
+      "SGR": 14
+    },
+    "com_ramal": 28,
+    "uwi_diferente_do_arquivo": []
+  },
+  "sodir": {
+    "pocos": 8488,
+    "por_tipo": {
+      "development": 6287,
+      "exploration": 2201
+    }
+  },
+  "cruzamento": {
+    "force_com_par_na_sodir": 116,
+    "force_sem_par": [
+      "16/11-1 ST3",
+      "25/2-13 T4"
+    ]
+  }
+}
