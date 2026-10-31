@@ -1,0 +1,71 @@
+# Fontes do case. Cada entrada vira uma linha do manifesto (data/raw/manifesto.csv),
+# com URL, data da coleta, tamanho e hash. Mudar uma fonte é mudar este arquivo, não o código.
+#
+# checksum: quando a fonte publica um (o Zenodo publica md5), a coleta confere e falha se
+# não bater. Quando não publica (Sodir, GitHub), a coleta só registra o sha256 do que veio.
+# snapshot: a Sodir atualiza as tabelas todo dia; o arquivo leva a data no nome, e uma
+# coleta nova não sobrescreve a anterior.
+
+fontes:
+  - id: force_las
+    descricao: LAS de todos os poços do FORCE 2020 (treino, teste e cegos)
+    url: https://zenodo.org/api/records/4351156/files/LAS_files_Force_2020_all_wells_train_test_blind_hidden_final.zip/content
+    arquivo: force/LAS_files_Force_2020_all_wells.zip
+    checksum: md5:da0d72d5783a780ac71779453d9fbfbf
+    licenca: CC BY 4.0 (Zenodo, DOI 10.5281/zenodo.4351156); dado original do governo norueguês sob NLOD 2.0
+
+  - id: force_npd_formacoes
+    descricao: topos de formação e membro que os organizadores tiraram do NPD em 2020
+    url: https://zenodo.org/api/records/4351156/files/NPD_Lithostratigraphy_member_formations_all_wells.xlsx/content
+    arquivo: force/NPD_Lithostratigraphy_member_formations_all_wells.xlsx
+    checksum: md5:f17eb022983ec728a5e811892aeea41b
+    licenca: CC BY 4.0 (Zenodo, DOI 10.5281/zenodo.4351156)
+
+  - id: force_npd_grupos
+    descricao: topos de grupo que os organizadores tiraram do NPD em 2020
+    url: https://zenodo.org/api/records/4351156/files/NPD_Lithostratigraphy_groups_all_wells.xlsx/content
+    arquivo: force/NPD_Lithostratigraphy_groups_all_wells.xlsx
+    checksum: md5:5c42fbc98b446c170fd9924dfd5cf546
+    licenca: CC BY 4.0 (Zenodo, DOI 10.5281/zenodo.4351156)
+
+  - id: force_csv_treino
+    descricao: amostras de treino com GROUP e FORMATION (a estratigrafia indicada nos perfis)
+    url: https://raw.githubusercontent.com/bolgebrygg/Force-2020-Machine-Learning-competition/master/lithology_competition/data/train.zip
+    arquivo: force/train.zip
+    licenca: CC BY 4.0 (repositório bolgebrygg/Force-2020-Machine-Learning-competition)
+
+  - id: force_csv_teste
+    descricao: amostras do teste aberto, com GROUP e FORMATION
+    url: https://raw.githubusercontent.com/bolgebrygg/Force-2020-Machine-Learning-competition/master/lithology_competition/data/leaderboard_test_features.csv
+    arquivo: force/leaderboard_test_features.csv
+    licenca: CC BY 4.0 (repositório bolgebrygg/Force-2020-Machine-Learning-competition)
+
+  - id: force_csv_cego
+    descricao: amostras do teste cego, com GROUP e FORMATION
+    url: https://raw.githubusercontent.com/bolgebrygg/Force-2020-Machine-Learning-competition/master/lithology_competition/data/hidden_test.csv
+    arquivo: force/hidden_test.csv
+    licenca: CC BY 4.0 (repositório bolgebrygg/Force-2020-Machine-Learning-competition)
+
+  - id: sodir_pocos_exploracao
+    descricao: poços de exploração (coordenadas ED50, mesa rotativa, inclinação, profundidades)
+    tabela_sodir: wellbore_exploration_all
+    arquivo: sodir/wellbore_exploration_all_{snapshot}.csv
+    licenca: NLOD 2.0 (Sodir FactPages)
+
+  - id: sodir_pocos_desenvolvimento
+    descricao: poços de desenvolvimento, com os mesmos campos
+    tabela_sodir: wellbore_development_all
+    arquivo: sodir/wellbore_development_all_{snapshot}.csv
+    licenca: NLOD 2.0 (Sodir FactPages)
+
+  - id: sodir_topos
+    descricao: topos litoestratigráficos oficiais (grupo, formação, membro), em MD
+    tabela_sodir: wellbore_formation_top
+    arquivo: sodir/wellbore_formation_top_{snapshot}.csv
+    licenca: NLOD 2.0 (Sodir FactPages)
+
+  - id: sodir_testemunhos
+    descricao: intervalos testemunhados por poço
+    tabela_sodir: wellbore_core
+    arquivo: sodir/wellbore_core_{snapshot}.csv
+    licenca: NLOD 2.0 (Sodir FactPages)

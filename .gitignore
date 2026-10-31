@@ -1,0 +1,25 @@
+# Dependências
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Dados: as fontes são públicas, mas pesadas (~350 MB) e se baixam de novo com um comando
+# (uv run python -m pocos.collect). Só saídas pequenas e publicáveis entram no Git.
+data/raw/
+data/interim/
+data/processed/*.duckdb
+
+# Ambiente e segredos
+.env
+.env.*
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/*
+.idea/

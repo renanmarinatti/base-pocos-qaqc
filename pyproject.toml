@@ -1,0 +1,40 @@
+[project]
+name = "base-pocos-qaqc"
+version = "0.1.0"
+description = "Consolidar e validar uma base de poços de duas fontes públicas que não concordam (FORCE 2020 e Sodir)."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "duckdb",
+    "lasio",
+    "matplotlib",
+    "openpyxl",
+    "pandas",
+    "pyarrow",
+    "pyproj",
+    "pyyaml",
+    "requests",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[build-system]
+requires = ["uv_build>=0.8,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "pocos"
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
