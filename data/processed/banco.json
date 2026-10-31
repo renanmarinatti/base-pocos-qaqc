@@ -1,0 +1,19 @@
+{
+  "tabelas": {
+    "amostra": 2337639,
+    "curva": 19,
+    "decisao": 11,
+    "fonte": 10,
+    "litologia_intervalo": 40295,
+    "poco": 118,
+    "problema": 951,
+    "regra": 15,
+    "testemunho": 501,
+    "topo": 2799
+  },
+  "megabytes": 255.1,
+  "nulos_trocados_D10": {
+    "RXO": 24020,
+    "SP": 5515
+  }
+}

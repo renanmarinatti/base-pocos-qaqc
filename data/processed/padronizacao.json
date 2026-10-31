@@ -13,7 +13,7 @@
   "unidade_divergente_pocos": 0,
   "valores_nulos": 11251520,
   "nulo_remanescente": 0,
-  "intervalos_de_litologia": 40299,
+  "intervalos_de_litologia": 40295,
   "codigos_de_litologia_desconhecidos": 0,
   "topos_por_fonte": {
     "npd_2020": 2769,
@@ -32,6 +32,8 @@
     "75%": 3.5,
     "max": 2444.3
   },
+  "dept_vs_depth_md_max_m": 0.00048,
+  "amostras_sem_trajetoria": 115746,
   "pocos_desviados_mais_de_50m": 20,
   "md_menos_tvdss_no_topo_vs_mesa": 0.0
 }

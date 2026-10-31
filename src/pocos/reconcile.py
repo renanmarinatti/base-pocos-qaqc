@@ -6,7 +6,7 @@ A Sodir é a referência oficial; as outras versões são comparadas contra ela.
   nome-base da unidade (config/nomes_unidades.yaml) e pela ordem de ocorrência no poço,
   porque uma unidade pode aparecer mais de uma vez.
 - Poços: posição na cabeça do poço, mesa rotativa e profundidade final, com a regra de
-  quando a comparação vale (o perfil pode começar abaixo do ponto de desvio).
+  quando a comparação vale (a trajetória do perfil pode começar num trecho já desviado).
 - Testemunhos: se o intervalo testemunhado tem perfil e cabe na profundidade final.
 
 Classifica, não corrige. O que exige escolha vai para docs/decisoes.md.
@@ -118,8 +118,9 @@ def wells_check(wells: pd.DataFrame) -> pd.DataFrame:
     w = wells.copy()
     implied_kb = w["md_menos_tvdss_topo"]
     w["vertical_no_inicio"] = (implied_kb - w["mesa_rotativa_m"]).abs() < VERTICAL_AT_TOP_M + 5
-    # Se o perfil começa já desviado, MD − TVDSS no topo é muito maior que a mesa rotativa,
-    # e nem a posição nem a referência vertical podem ser comparadas pela primeira amostra.
+    # Se a trajetória (X, Y, Z) do perfil só começa num trecho já desviado, MD − TVDSS ali é
+    # muito maior que a mesa rotativa, e nem a posição nem a referência vertical podem ser
+    # comparadas pela primeira amostra com trajetória.
     w["comparavel_pela_1a_amostra"] = (implied_kb - w["mesa_rotativa_m"]) < 50
     w["delta_mesa_m"] = implied_kb - w["mesa_rotativa_m"]
     w["delta_prof_final_m"] = w["md_max"] - w["prof_final_md_sodir"]
@@ -127,7 +128,10 @@ def wells_check(wells: pd.DataFrame) -> pd.DataFrame:
     def status(r) -> list[str]:
         out = []
         if not r["comparavel_pela_1a_amostra"]:
-            out.append("perfil começa abaixo do ponto de desvio: posição e mesa não comparáveis")
+            out.append(
+                f"trajetória do perfil só começa a {r['md_inicio_trajetoria']:.0f} m, "
+                "já desviada: posição e mesa não comparáveis"
+            )
             return out
         if r["dist_force_sodir_m"] > POSITION_TOLERANCE_M:
             out.append(f"posição a {r['dist_force_sodir_m']:.0f} m da Sodir")
@@ -147,6 +151,7 @@ def wells_check(wells: pd.DataFrame) -> pd.DataFrame:
         "mesa_rotativa_m",
         "delta_mesa_m",
         "md_min",
+        "md_inicio_trajetoria",
         "md_max",
         "prof_final_md_sodir",
         "delta_prof_final_m",

@@ -77,7 +77,7 @@ def test_official_top_above_labelled_log_is_not_a_divergence():
     assert got == {"NORDLAND#1": "fora do trecho perfilado", "HORDALAND#1": "igual"}
 
 
-def test_well_logged_only_below_kickoff_is_not_compared_by_first_sample():
+def test_well_with_trajectory_only_below_kickoff_is_not_compared():
     wells = pd.DataFrame(
         {
             "poco": ["V", "D"],
@@ -85,7 +85,8 @@ def test_well_logged_only_below_kickoff_is_not_compared_by_first_sample():
             "dist_force_sodir_m": [1.0, 2444.0],
             "mesa_rotativa_m": [25.0, 25.0],
             "md_menos_tvdss_topo": [25.0, 1082.0],
-            "md_min": [100.0, 3900.0],
+            "md_min": [100.0, 433.0],
+            "md_inicio_trajetoria": [100.0, 3891.0],
             "md_max": [3000.0, 4700.0],
             "prof_final_md_sodir": [3000.0, 4724.0],
             "desvio_max_m": [1.0, 315.0],
@@ -93,4 +94,4 @@ def test_well_logged_only_below_kickoff_is_not_compared_by_first_sample():
     )
     out = wells_check(wells).set_index("poco")["achados"]
     assert out["V"] == ""
-    assert out["D"].startswith("perfil começa abaixo do ponto de desvio")
+    assert out["D"].startswith("trajetória do perfil só começa a 3891 m")

@@ -73,7 +73,9 @@ def read_las(zip_path: Path, aliases: dict, units: dict, log: dict) -> pd.DataFr
             las = lasio.read(io.StringIO(z.read(member).decode("utf-8", errors="replace")))
             well = well_name_from_file(member)
             null = float(las.well["NULL"].value)
-            df = las.df().reset_index(drop=True)
+            # A profundidade é o índice do LAS (DEPT), que existe em toda amostra. A curva
+            # DEPTH_MD repete o DEPT (diferença < 0,001 m) mas falta onde falta a trajetória.
+            df = las.df().rename_axis("DEPT").reset_index()
             renames = {}
             for curve in las.curves[1:]:
                 canonical = aliases.get(curve.mnemonic.upper())
@@ -103,8 +105,14 @@ def read_las(zip_path: Path, aliases: dict, units: dict, log: dict) -> pd.DataFr
             df["arquivo"] = f"force/LAS_files_Force_2020_all_wells.zip:{Path(member).name}"
             frames.append(df)
     out = pd.concat(frames, ignore_index=True)
-    out = out.rename(columns={"DEPTH_MD": "md", "Z_LOC": "tvdss"})
+    out = out.rename(columns={"DEPT": "md", "Z_LOC": "tvdss"})
     out["tvdss"] = -out["tvdss"]  # positiva para baixo, como MD
+    both = out["DEPTH_MD"].notna()
+    log["dept_vs_depth_md_max_m"] = float(
+        (out.loc[both, "md"] - out.loc[both, "DEPTH_MD"]).abs().max()
+    )
+    log["amostras_sem_trajetoria"] = int(out["tvdss"].isna().sum())
+    out = out.drop(columns="DEPTH_MD")
     return out
 
 
@@ -273,6 +281,7 @@ def wells_table(samples: pd.DataFrame, exceptions: dict) -> pd.DataFrame:
     force = pd.DataFrame(
         {
             "md_min": g["md"].min(),
+            "md_inicio_trajetoria": head["md"],
             "md_max": g["md"].max(),
             "x_force": head["X_LOC"],
             "y_force": head["Y_LOC"],
@@ -355,6 +364,8 @@ def run() -> dict:
         "testemunhos": len(core),
         "testemunhos_convertidos_de_pes": log["testemunhos_convertidos_de_pes"],
         "dist_force_sodir_m": wells["dist_force_sodir_m"].describe().round(1).to_dict(),
+        "dept_vs_depth_md_max_m": round(log["dept_vs_depth_md_max_m"], 5),
+        "amostras_sem_trajetoria": log["amostras_sem_trajetoria"],
         "pocos_desviados_mais_de_50m": int((wells["desvio_max_m"] > 50).sum()),
         "md_menos_tvdss_no_topo_vs_mesa": float(
             (wells["md_menos_tvdss_topo"] - wells["mesa_rotativa_m"]).abs().median().round(2)

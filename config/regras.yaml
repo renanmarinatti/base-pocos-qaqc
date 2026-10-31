@@ -132,3 +132,12 @@ regras:
     gravidade: media
     entidade: curva
     parametros: {pef_max: 10, fracao_minima_para_disparar: 0.005}
+
+  R15:
+    nome: amostra sem trajetória
+    descricao: >
+      A amostra tem profundidade (DEPT) e curvas, mas não tem X, Y e Z. Sem trajetória não
+      há TVD nem posição: o trecho não entra em mapa, seção ou comparação vertical.
+    gravidade: media
+    entidade: intervalo
+    parametros: {fracao_minima_para_disparar: 0.01}

@@ -1,13 +1,13 @@
 regra,nome,gravidade,poco,curva,topo_md,base_md,amostras,detalhe
 R01,curva declarada sem dado,media,35/8-4,CALI,,,0,declarada no cabeçalho; 0.00% das amostras com dado
 R01,curva declarada sem dado,media,36/7-3,CALI,,,0,declarada no cabeçalho; 0.38% das amostras com dado
-R02,valor fisicamente impossível,alta,34/8-7 R,GR,5439.67,5439.82,2273,"6.3% fora de [0, 500]; mín. -15.6, máx. -1.3"
+R02,valor fisicamente impossível,alta,34/8-7 R,GR,23.00,5439.82,2273,"6.3% fora de [0, 500]; mín. -15.6, máx. -1.3"
 R02,valor fisicamente impossível,alta,15/9-17,SGR,3113.43,3119.81,43,"0.2% fora de [0, 500]; mín. -197, máx. -92.6"
-R02,valor fisicamente impossível,alta,31/2-9,SGR,1767.31,1774.61,73,"3.8% fora de [0, 500]; mín. -360, máx. -0.263"
+R02,valor fisicamente impossível,alta,31/2-9,SGR,1767.31,1778.26,73,"3.8% fora de [0, 500]; mín. -360, máx. -0.263"
 R02,valor fisicamente impossível,alta,31/4-5,SGR,2590.20,2591.57,10,"0.2% fora de [0, 500]; mín. -190, máx. -58.1"
-R02,valor fisicamente impossível,alta,34/2-4,SGR,3792.19,4113.36,84,"2.3% fora de [0, 500]; mín. -983, máx. 964"
+R02,valor fisicamente impossível,alta,34/2-4,SGR,3792.19,4115.79,84,"2.3% fora de [0, 500]; mín. -983, máx. 964"
 R02,valor fisicamente impossível,alta,35/11-15 S,SGR,2819.76,2821.89,15,"0.6% fora de [0, 500]; mín. -0.0243, máx. -0.000985"
-R02,valor fisicamente impossível,alta,34/8-7 R,RHOB,368.34,5477.67,21930,"61.1% fora de [1.0, 3.2]; mín. 0, máx. 0.969"
+R02,valor fisicamente impossível,alta,34/8-7 R,RHOB,23.00,5479.04,21930,"61.1% fora de [1.0, 3.2]; mín. 0, máx. 0.969"
 R02,valor fisicamente impossível,alta,35/8-4,RHOB,3316.95,3317.71,6,"0.2% fora de [1.0, 3.2]; mín. 3.25, máx. 3.36"
 R02,valor fisicamente impossível,alta,16/10-2,DRHO,2770.15,2772.43,12,"0.5% fora de [-1.0, 1.0]; mín. -1.1, máx. -1.01"
 R02,valor fisicamente impossível,alta,16/10-3,DRHO,1203.53,2138.64,13,"0.1% fora de [-1.0, 1.0]; mín. -1.8, máx. -1.04"
@@ -19,15 +19,15 @@ R02,valor fisicamente impossível,alta,25/7-2,DRHO,252.11,279.17,36,"0.1% fora d
 R02,valor fisicamente impossível,alta,25/9-1,DRHO,1916.31,2526.59,15,"0.4% fora de [-1.0, 1.0]; mín. -7.43e+03, máx. -1"
 R02,valor fisicamente impossível,alta,30/3-5 S,DRHO,3891.78,3960.48,357,"8.1% fora de [-1.0, 1.0]; mín. -1.26, máx. -1"
 R02,valor fisicamente impossível,alta,30/6-5,DRHO,901.40,949.28,302,"1.7% fora de [-1.0, 1.0]; mín. -1.74, máx. -1"
-R02,valor fisicamente impossível,alta,31/2-9,DRHO,446.89,450.69,33,"0.4% fora de [-1.0, 1.0]; mín. 1.02, máx. 4.87"
-R02,valor fisicamente impossível,alta,31/3-1,DRHO,816.37,1161.56,219,"2.1% fora de [-1.0, 1.0]; mín. -3.45, máx. 1.53"
+R02,valor fisicamente impossível,alta,31/2-9,DRHO,446.89,1778.11,33,"0.4% fora de [-1.0, 1.0]; mín. 1.02, máx. 4.87"
+R02,valor fisicamente impossível,alta,31/3-1,DRHO,816.37,1161.57,219,"2.1% fora de [-1.0, 1.0]; mín. -3.45, máx. 1.53"
 R02,valor fisicamente impossível,alta,31/3-3,DRHO,793.46,2570.64,76,"0.7% fora de [-1.0, 1.0]; mín. -2.01, máx. 4.31"
 R02,valor fisicamente impossível,alta,31/4-10,DRHO,1981.59,2319.94,2227,"100.0% fora de [-1.0, 1.0]; mín. 1.47, máx. 2.68"
 R02,valor fisicamente impossível,alta,31/4-5,DRHO,894.95,910.00,100,"0.8% fora de [-1.0, 1.0]; mín. -1.97, máx. -1.06"
-R02,valor fisicamente impossível,alta,31/6-5,DRHO,640.26,649.07,59,"0.6% fora de [-1.0, 1.0]; mín. -1.96, máx. -1.31"
+R02,valor fisicamente impossível,alta,31/6-5,DRHO,640.25,649.07,59,"0.6% fora de [-1.0, 1.0]; mín. -1.96, máx. -1.31"
 R02,valor fisicamente impossível,alta,33/9-17,DRHO,515.59,1784.03,433,"2.4% fora de [-1.0, 1.0]; mín. -1.28, máx. -1"
-R02,valor fisicamente impossível,alta,34/10-35,DRHO,1050.41,1079.44,153,"0.7% fora de [-1.0, 1.0]; mín. -6.1, máx. -1.01"
-R02,valor fisicamente impossível,alta,34/11-2 S,DRHO,,,376,"1.6% fora de [-1.0, 1.0]; mín. -1.31, máx. -1"
+R02,valor fisicamente impossível,alta,34/10-35,DRHO,1050.41,4311.87,153,"0.7% fora de [-1.0, 1.0]; mín. -6.1, máx. -1.01"
+R02,valor fisicamente impossível,alta,34/11-2 S,DRHO,1100.42,1157.42,376,"1.6% fora de [-1.0, 1.0]; mín. -1.31, máx. -1"
 R02,valor fisicamente impossível,alta,34/7-20,DRHO,1157.41,1201.33,290,"2.2% fora de [-1.0, 1.0]; mín. -1.45, máx. -1.01"
 R02,valor fisicamente impossível,alta,34/7-21,DRHO,1068.36,1088.42,127,"1.0% fora de [-1.0, 1.0]; mín. -1.43, máx. -1.01"
 R02,valor fisicamente impossível,alta,34/8-3,DRHO,1276.10,1297.54,97,"0.7% fora de [-1.0, 1.0]; mín. -2.84, máx. -1"
@@ -37,73 +37,73 @@ R02,valor fisicamente impossível,alta,35/11-5,DRHO,948.78,997.42,243,"1.3% fora
 R02,valor fisicamente impossível,alta,35/11-6,DRHO,953.15,978.08,127,"0.5% fora de [-1.0, 1.0]; mín. -1.31, máx. -1"
 R02,valor fisicamente impossível,alta,35/11-7,DRHO,907.41,948.15,19,"0.1% fora de [-1.0, 1.0]; mín. -1.68, máx. -1.01"
 R02,valor fisicamente impossível,alta,36/7-3,DRHO,1355.98,2924.78,10091,"100.0% fora de [-1.0, 1.0]; mín. -1.01, máx. 2.85"
-R02,valor fisicamente impossível,alta,15/9-15,DTC,1458.21,1469.46,81,"0.4% fora de [40, 240]; mín. 7.42, máx. 39.7"
-R02,valor fisicamente impossível,alta,16/10-1,DTC,1387.90,1395.65,224,"1.1% fora de [40, 240]; mín. 10.8, máx. 39.4"
+R02,valor fisicamente impossível,alta,15/9-15,DTC,100.09,1469.46,81,"0.4% fora de [40, 240]; mín. 7.42, máx. 39.7"
+R02,valor fisicamente impossível,alta,16/10-1,DTC,110.18,1395.65,224,"1.1% fora de [40, 240]; mín. 10.8, máx. 39.4"
 R02,valor fisicamente impossível,alta,34/10-21,DTC,1896.08,3657.15,28,"0.1% fora de [40, 240]; mín. 39, máx. 320"
-R02,valor fisicamente impossível,alta,34/10-33,DTC,3868.60,3878.18,65,"0.3% fora de [40, 240]; mín. 38.2, máx. 38.2"
-R02,valor fisicamente impossível,alta,34/8-7 R,DTC,368.34,1397.84,9047,"25.2% fora de [40, 240]; mín. 0, máx. 36.9"
+R02,valor fisicamente impossível,alta,34/10-33,DTC,3868.60,3878.33,65,"0.3% fora de [40, 240]; mín. 38.2, máx. 38.2"
+R02,valor fisicamente impossível,alta,34/8-7 R,DTC,23.00,5479.04,9047,"25.2% fora de [40, 240]; mín. 0, máx. 36.9"
 R02,valor fisicamente impossível,alta,35/11-10,DTS,1150.39,1586.63,74,"0.6% fora de [60, 600]; mín. 600, máx. 725"
 R02,valor fisicamente impossível,alta,35/11-6,DTS,1261.26,1268.70,23,"0.2% fora de [60, 600]; mín. 601, máx. 627"
 R02,valor fisicamente impossível,alta,31/6-5,RDEP,376.23,378.51,16,"0.1% fora de [0.01, 100000]; mín. 0.0001, máx. 0.0001"
 R02,valor fisicamente impossível,alta,33/9-17,RDEP,254.61,260.08,37,"0.2% fora de [0.01, 100000]; mín. 0.01, máx. 0.01"
 R02,valor fisicamente impossível,alta,31/6-5,RMED,376.23,378.51,16,"0.1% fora de [0.01, 100000]; mín. 0.0001, máx. 0.0001"
-R02,valor fisicamente impossível,alta,31/3-1,RSHA,1276.93,1279.36,17,"0.5% fora de [0.01, 100000]; mín. 0.0001, máx. 0.0001"
-R02,valor fisicamente impossível,alta,15/9-15,RXO,171.83,3201.04,7799,"37.2% fora de [0.01, 100000]; mín. -1e+03, máx. -0.00605"
-R02,valor fisicamente impossível,alta,25/5-4,RXO,1200.79,3179.53,12191,"90.6% fora de [0.01, 100000]; mín. -1e+03, máx. -219"
+R02,valor fisicamente impossível,alta,31/3-1,RSHA,1276.93,1279.37,17,"0.5% fora de [0.01, 100000]; mín. 0.0001, máx. 0.0001"
+R02,valor fisicamente impossível,alta,15/9-15,RXO,25.00,3209.86,7799,"37.2% fora de [0.01, 100000]; mín. -1e+03, máx. -0.00605"
+R02,valor fisicamente impossível,alta,25/5-4,RXO,1135.28,3181.05,12191,"90.6% fora de [0.01, 100000]; mín. -1e+03, máx. -219"
 R02,valor fisicamente impossível,alta,35/11-15 S,RXO,2805.78,2820.98,101,"3.7% fora de [0.01, 100000]; mín. 0.00154, máx. 0.00758"
 R02,valor fisicamente impossível,alta,16/10-3,SP,416.78,1199.43,3676,"33.3% fora de [-500, 500]; mín. 500, máx. 527"
-R02,valor fisicamente impossível,alta,25/2-13,SP,201.42,630.82,2934,"12.0% fora de [-500, 500]; mín. -4.5e+03, máx. -500"
-R02,valor fisicamente impossível,alta,34/10-35,CALI,3355.33,4199.09,861,"4.0% fora de [4, 30]; mín. 3.02, máx. 3.81"
+R02,valor fisicamente impossível,alta,25/2-13,SP,185.00,630.82,2934,"12.0% fora de [-500, 500]; mín. -4.5e+03, máx. -500"
+R02,valor fisicamente impossível,alta,34/10-35,CALI,3355.34,4199.09,861,"4.0% fora de [4, 30]; mín. 3.02, máx. 3.81"
 R02,valor fisicamente impossível,alta,34/8-7 R,CALI,3327.33,5266.85,52,"0.4% fora de [4, 30]; mín. 2.34, máx. 3.97"
-R02,valor fisicamente impossível,alta,15/9-15,DCAL,497.42,3201.04,152,"0.9% fora de [-5, 15]; mín. -12.2, máx. 1e+04"
+R02,valor fisicamente impossível,alta,15/9-15,DCAL,497.42,3203.17,152,"0.9% fora de [-5, 15]; mín. -12.2, máx. 1e+04"
 R02,valor fisicamente impossível,alta,16/10-1,DCAL,439.26,1413.58,480,"2.7% fora de [-5, 15]; mín. -8.48, máx. -5.28"
 R02,valor fisicamente impossível,alta,16/10-3,DCAL,415.26,421.80,44,"0.3% fora de [-5, 15]; mín. -7.46, máx. -6.75"
-R02,valor fisicamente impossível,alta,16/4-1,DCAL,2900.14,2908.80,59,"0.4% fora de [-5, 15]; mín. 8.8e+03, máx. 1e+04"
-R02,valor fisicamente impossível,alta,16/7-4,DCAL,297.57,1417.66,267,"1.5% fora de [-5, 15]; mín. -23.2, máx. 1e+04"
-R02,valor fisicamente impossível,alta,16/7-6,DCAL,1110.93,1152.73,278,"2.6% fora de [-5, 15]; mín. -5.47, máx. 1e+04"
-R02,valor fisicamente impossível,alta,25/10-10,DCAL,1094.93,1102.22,25,"0.3% fora de [-5, 15]; mín. -6.4, máx. -5.03"
+R02,valor fisicamente impossível,alta,16/4-1,DCAL,2900.14,2908.95,59,"0.4% fora de [-5, 15]; mín. 8.8e+03, máx. 1e+04"
+R02,valor fisicamente impossível,alta,16/7-4,DCAL,143.60,2785.81,267,"1.5% fora de [-5, 15]; mín. -23.2, máx. 1e+04"
+R02,valor fisicamente impossível,alta,16/7-6,DCAL,1110.93,2733.08,278,"2.6% fora de [-5, 15]; mín. -5.47, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/10-10,DCAL,1094.93,2507.31,25,"0.3% fora de [-5, 15]; mín. -6.4, máx. -5.03"
 R02,valor fisicamente impossível,alta,25/10-9,DCAL,1332.78,1345.55,32,"0.3% fora de [-5, 15]; mín. -5.5, máx. -5.03"
-R02,valor fisicamente impossível,alta,25/11-5,DCAL,2163.95,2172.46,65,"0.6% fora de [-5, 15]; mín. 1.75e+03, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/11-5,DCAL,2163.95,2173.68,65,"0.6% fora de [-5, 15]; mín. 1.75e+03, máx. 1e+04"
 R02,valor fisicamente impossível,alta,25/2-13,DCAL,694.66,713.96,77,"0.4% fora de [-5, 15]; mín. -8.68, máx. -5.09"
-R02,valor fisicamente impossível,alta,25/2-14,DCAL,3097.72,3622.58,102,"0.6% fora de [-5, 15]; mín. -6.28, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/2-14,DCAL,3097.72,3629.11,102,"0.6% fora de [-5, 15]; mín. -6.28, máx. 1e+04"
 R02,valor fisicamente impossível,alta,25/3-1,DCAL,693.84,1983.10,86,"0.4% fora de [-5, 15]; mín. -7.28, máx. -5.04"
 R02,valor fisicamente impossível,alta,25/4-5,DCAL,2136.03,2173.12,198,"0.9% fora de [-5, 15]; mín. -5.71, máx. -5.02"
-R02,valor fisicamente impossível,alta,25/6-1,DCAL,256.89,2872.05,302,"1.7% fora de [-5, 15]; mín. 1.92e+03, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/6-1,DCAL,233.78,2874.48,302,"1.7% fora de [-5, 15]; mín. 1.92e+03, máx. 1e+04"
 R02,valor fisicamente impossível,alta,25/7-2,DCAL,4445.94,4702.67,32,"0.1% fora de [-5, 15]; mín. -5.41, máx. 15"
-R02,valor fisicamente impossível,alta,25/8-7,DCAL,,,85,"1.0% fora de [-5, 15]; mín. -5.09, máx. -5"
+R02,valor fisicamente impossível,alta,25/8-7,DCAL,1003.33,1055.62,85,"1.0% fora de [-5, 15]; mín. -5.09, máx. -5"
 R02,valor fisicamente impossível,alta,26/4-1,DCAL,698.98,3306.38,1105,"5.6% fora de [-5, 15]; mín. -11.4, máx. 16.3"
 R02,valor fisicamente impossível,alta,31/2-19 S,DCAL,4077.20,4087.08,66,"0.4% fora de [-5, 15]; mín. 9.51e+03, máx. 1e+04"
-R02,valor fisicamente impossível,alta,7/1-1,DCAL,365.17,1449.23,222,"1.4% fora de [-5, 15]; mín. -7.91, máx. -5.04"
-R02,valor fisicamente impossível,alta,31/3-4,BS,,,101,"0.9% fora de [4, 36]; mín. 37.6, máx. 42"
+R02,valor fisicamente impossível,alta,7/1-1,DCAL,334.16,1449.23,222,"1.4% fora de [-5, 15]; mín. -7.91, máx. -5.04"
+R02,valor fisicamente impossível,alta,31/3-4,BS,388.16,403.36,101,"0.9% fora de [4, 36]; mín. 37.6, máx. 42"
 R02,valor fisicamente impossível,alta,15/9-17,ROP,995.46,1002.76,28,"0.1% fora de [0, 1000]; mín. 1.04e+03, máx. 2.22e+03"
 R02,valor fisicamente impossível,alta,25/6-2,ROP,257.18,2391.71,14044,"100.0% fora de [0, 1000]; mín. 2.95e+03, máx. 9.24e+04"
 R02,valor fisicamente impossível,alta,26/4-1,ROP,1285.70,1293.45,52,"0.3% fora de [0, 1000]; mín. -0.118, máx. -2.88e-05"
-R02,valor fisicamente impossível,alta,30/6-5,ROP,275.77,1081.67,1231,"18.6% fora de [0, 1000]; mín. 1e+03, máx. 4.84e+03"
+R02,valor fisicamente impossível,alta,30/6-5,ROP,74.07,1081.67,1231,"18.6% fora de [0, 1000]; mín. 1e+03, máx. 4.84e+03"
 R02,valor fisicamente impossível,alta,32/2-1,ROP,837.96,1026.59,19,"0.3% fora de [0, 1000]; mín. 1.08e+03, máx. 1.52e+03"
 R02,valor fisicamente impossível,alta,34/11-1,ROPA,650.92,1390.86,1591,"18.2% fora de [0, 1000]; mín. 1e+03, máx. 3.99e+03"
-R02,valor fisicamente impossível,alta,35/11-11,ROPA,383.64,3104.44,84,"0.4% fora de [0, 1000]; mín. -999, máx. -2.29"
-R02,valor fisicamente impossível,alta,35/8-4,ROPA,650.11,3456.94,154,"0.7% fora de [0, 1000]; mín. -999, máx. -9.38"
+R02,valor fisicamente impossível,alta,35/11-11,ROPA,383.64,3225.88,84,"0.4% fora de [0, 1000]; mín. -999, máx. -2.29"
+R02,valor fisicamente impossível,alta,35/8-4,ROPA,394.14,3456.94,154,"0.7% fora de [0, 1000]; mín. -999, máx. -9.38"
 R02,valor fisicamente impossível,alta,15/9-13,MUDWEIGHT,617.04,3279.93,17520,"100.0% fora de [0.8, 2.6]; mín. 0.129, máx. 0.157"
 R02,valor fisicamente impossível,alta,15/9-14,MUDWEIGHT,194.11,3562.73,22163,"100.0% fora de [0.8, 2.6]; mín. 0.125, máx. 427"
 R02,valor fisicamente impossível,alta,15/9-15,MUDWEIGHT,350.13,3199.98,18750,"100.0% fora de [0.8, 2.6]; mín. 0.131, máx. 0.192"
 R02,valor fisicamente impossível,alta,15/9-17,MUDWEIGHT,212.05,3119.97,19132,"100.0% fora de [0.8, 2.6]; mín. 0.126, máx. 0.162"
-R02,valor fisicamente impossível,alta,16/1-6 A,MUDWEIGHT,562.05,2190.28,10737,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.174"
+R02,valor fisicamente impossível,alta,16/1-6 A,MUDWEIGHT,562.05,2193.92,10737,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.174"
 R02,valor fisicamente impossível,alta,16/10-1,MUDWEIGHT,550.83,3149.88,17100,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.17"
-R02,valor fisicamente impossível,alta,16/10-2,MUDWEIGHT,162.75,2960.91,18796,"100.0% fora de [0.8, 2.6]; mín. 126, máx. 186"
-R02,valor fisicamente impossível,alta,16/10-3,MUDWEIGHT,209.45,2847.41,17422,"100.0% fora de [0.8, 2.6]; mín. 0.126, máx. 0.175"
-R02,valor fisicamente impossível,alta,16/4-1,MUDWEIGHT,293.03,2908.80,17211,"100.0% fora de [0.8, 2.6]; mín. 0.131, máx. 0.156"
-R02,valor fisicamente impossível,alta,16/7-4,MUDWEIGHT,1378.14,2778.97,9223,"53.4% fora de [0.8, 2.6]; mín. 0.134, máx. 0.168"
-R02,valor fisicamente impossível,alta,25/11-15,MUDWEIGHT,1332.10,2017.17,4625,"100.0% fora de [0.8, 2.6]; mín. 0.133, máx. 0.139"
-R02,valor fisicamente impossível,alta,25/11-19 S,MUDWEIGHT,1000.07,2239.78,8224,"100.0% fora de [0.8, 2.6]; mín. 0.162, máx. 0.165"
+R02,valor fisicamente impossível,alta,16/10-2,MUDWEIGHT,104.07,2960.91,18796,"100.0% fora de [0.8, 2.6]; mín. 126, máx. 186"
+R02,valor fisicamente impossível,alta,16/10-3,MUDWEIGHT,202.01,2850.00,17422,"100.0% fora de [0.8, 2.6]; mín. 0.126, máx. 0.175"
+R02,valor fisicamente impossível,alta,16/4-1,MUDWEIGHT,293.03,2908.95,17211,"100.0% fora de [0.8, 2.6]; mín. 0.131, máx. 0.156"
+R02,valor fisicamente impossível,alta,16/7-4,MUDWEIGHT,1378.14,2779.88,9223,"53.4% fora de [0.8, 2.6]; mín. 0.134, máx. 0.168"
+R02,valor fisicamente impossível,alta,25/11-15,MUDWEIGHT,1332.10,2034.95,4625,"100.0% fora de [0.8, 2.6]; mín. 0.133, máx. 0.139"
+R02,valor fisicamente impossível,alta,25/11-19 S,MUDWEIGHT,1000.07,2249.96,8224,"100.0% fora de [0.8, 2.6]; mín. 0.162, máx. 0.165"
 R02,valor fisicamente impossível,alta,25/2-7,MUDWEIGHT,220.10,1799.99,10395,"100.0% fora de [0.8, 2.6]; mín. 0.126, máx. 0.147"
-R02,valor fisicamente impossível,alta,25/3-1,MUDWEIGHT,180.08,3921.86,4384,"17.6% fora de [0.8, 2.6]; mín. 0.24, máx. 2.76"
+R02,valor fisicamente impossível,alta,25/3-1,MUDWEIGHT,136.00,3921.86,4384,"17.6% fora de [0.8, 2.6]; mín. 0.24, máx. 2.76"
 R02,valor fisicamente impossível,alta,25/5-1,MUDWEIGHT,634.14,3429.87,18394,"100.0% fora de [0.8, 2.6]; mín. 0.127, máx. 0.149"
-R02,valor fisicamente impossível,alta,25/6-1,MUDWEIGHT,268.14,2872.05,17184,"100.0% fora de [0.8, 2.6]; mín. 0.132, máx. 0.156"
+R02,valor fisicamente impossível,alta,25/6-1,MUDWEIGHT,268.14,2879.95,17184,"100.0% fora de [0.8, 2.6]; mín. 0.132, máx. 0.156"
 R02,valor fisicamente impossível,alta,25/6-2,MUDWEIGHT,242.13,2391.86,14144,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.162"
-R02,valor fisicamente impossível,alta,25/6-3,MUDWEIGHT,1224.14,2473.43,8230,"100.0% fora de [0.8, 2.6]; mín. 0.153, máx. 0.155"
-R02,valor fisicamente impossível,alta,25/8-7,MUDWEIGHT,1065.04,2379.69,8652,"100.0% fora de [0.8, 2.6]; mín. 0.151, máx. 0.156"
+R02,valor fisicamente impossível,alta,25/6-3,MUDWEIGHT,1224.14,2474.95,8230,"100.0% fora de [0.8, 2.6]; mín. 0.153, máx. 0.155"
+R02,valor fisicamente impossível,alta,25/8-7,MUDWEIGHT,1065.04,2379.99,8652,"100.0% fora de [0.8, 2.6]; mín. 0.151, máx. 0.156"
 R02,valor fisicamente impossível,alta,25/9-1,MUDWEIGHT,1050.06,2524.92,9704,"100.0% fora de [0.8, 2.6]; mín. 0.129, máx. 0.152"
-R02,valor fisicamente impossível,alta,26/4-1,MUDWEIGHT,752.02,3684.86,19329,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.201"
+R02,valor fisicamente impossível,alta,26/4-1,MUDWEIGHT,752.02,3689.88,19329,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.201"
 R07,curvas básicas incompletas,media,16/1-2,RHOB,,,0,9% do trecho perfilado com dado
 R07,curvas básicas incompletas,media,16/1-2,NPHI,,,0,9% do trecho perfilado com dado
 R07,curvas básicas incompletas,media,16/1-6 A,RHOB,,,0,26% do trecho perfilado com dado
@@ -231,28 +231,28 @@ R08,densidade em poço arrombado,media,16/1-6 A,RHOB,1206.23,1713.45,439,13% do 
 R08,densidade em poço arrombado,media,16/10-1,RHOB,1414.65,3152.92,1417,12% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,16/10-2,RHOB,2766.96,2971.86,620,25% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,16/10-3,RHOB,1236.67,2794.82,1872,18% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,16/11-1 S,RHOB,1806.80,1832.49,2296,64% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/11-1 S,RHOB,1806.80,2327.25,2296,64% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,16/2-11 A,RHOB,754.18,2218.40,970,9% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,16/2-7,RHOB,710.04,2173.96,2576,23% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,16/4-1,RHOB,500.36,2883.11,9412,59% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,16/7-4,RHOB,172.32,2526.65,8887,52% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/7-4,RHOB,172.32,2785.81,8887,52% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/11-15,RHOB,1118.70,1980.08,2822,26% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/11-5,RHOB,1390.27,2171.86,2110,41% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/2-13,RHOB,729.77,3893.95,4317,21% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,25/2-14,RHOB,1198.79,3622.58,7084,44% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/2-14,RHOB,1197.87,3623.95,7084,44% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/2-7,RHOB,198.67,4094.27,12653,49% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/3-1,RHOB,693.84,3929.92,7777,37% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/4-5,RHOB,853.15,4213.11,9661,42% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/5-3,RHOB,1153.83,2878.42,1323,12% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,25/5-4,RHOB,1200.79,3050.63,4805,37% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,25/6-1,RHOB,260.84,2872.05,5931,35% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/5-4,RHOB,1200.03,3050.63,4805,37% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/6-1,RHOB,260.84,2874.63,5931,35% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/6-2,RHOB,1031.01,2300.21,3104,35% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/6-3,RHOB,1235.08,1872.27,942,11% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/7-2,RHOB,250.74,4828.98,19173,66% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/8-5 S,RHOB,1198.93,3326.78,1981,14% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/8-7,RHOB,2010.02,2329.22,129,5% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,25/9-1,RHOB,1966.77,2526.59,330,9% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,26/4-1,RHOB,1675.58,3684.86,4868,37% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,26/4-1,RHOB,1675.58,3686.84,4868,37% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,30/3-5 S,RHOB,3891.78,4304.91,503,11% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,31/2-1,RHOB,528.28,2396.36,632,6% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,31/2-19 S,RHOB,1310.04,4086.47,4055,22% do RHOB em trecho arrombado ou com DRHO alto
@@ -262,12 +262,12 @@ R08,densidade em poço arrombado,media,31/4-10,RHOB,1981.59,2319.94,2227,25% do 
 R08,densidade em poço arrombado,media,31/5-4 S,RHOB,1515.92,1567.14,338,14% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,31/6-8,RHOB,1412.06,2092.56,538,6% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,32/2-1,RHOB,851.33,1291.07,238,8% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,33/5-2,RHOB,3606.59,4327.83,1384,6% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,33/5-2,RHOB,3606.59,4531.36,1384,6% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,33/9-17,RHOB,572.90,2986.81,1567,9% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,34/10-33,RHOB,192.48,3843.37,13889,58% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,34/10-35,RHOB,1052.38,4308.68,1581,8% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/10-35,RHOB,1052.38,4310.35,1581,8% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,34/11-1,RHOB,3931.84,4562.49,1491,35% do RHOB em trecho arrombado ou com DRHO alto
-R08,densidade em poço arrombado,media,34/7-13,RHOB,1839.47,2858.02,1852,24% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/7-13,RHOB,1839.47,2858.03,1852,24% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,34/8-1,RHOB,890.99,3591.11,8561,48% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,34/8-7 R,RHOB,3213.18,5425.84,9450,26% do RHOB em trecho arrombado ou com DRHO alto
 R08,densidade em poço arrombado,media,35/11-11,RHOB,1248.21,2997.73,1126,9% do RHOB em trecho arrombado ou com DRHO alto
@@ -282,8 +282,8 @@ R09,interpretação de baixa confiança,baixa,16/8-1,CONFIANCA,,,0,14% da litolo
 R09,interpretação de baixa confiança,baixa,34/4-10 R,CONFIANCA,,,0,11% da litologia com confiança 3 (baixa)
 R09,interpretação de baixa confiança,baixa,35/11-12,CONFIANCA,,,0,46% da litologia com confiança 3 (baixa)
 R09,interpretação de baixa confiança,baixa,35/9-2,CONFIANCA,,,0,24% da litologia com confiança 3 (baixa)
-R12,código de nulo diferente do declarado,alta,34/11-2 S,RXO,1157.87,4745.83,24020,"valor -999 é código de nulo, não medida"
-R12,código de nulo diferente do declarado,alta,34/11-2 S,SP,2966.22,3744.30,5515,"valor -999 é código de nulo, não medida"
+R12,código de nulo diferente do declarado,alta,34/11-2 S,RXO,325.06,4757.99,24020,"valor -999 é código de nulo, não medida"
+R12,código de nulo diferente do declarado,alta,34/11-2 S,SP,325.06,4757.99,5515,"valor -999 é código de nulo, não medida"
 R13,curva sem unidade no cabeçalho,baixa,15/9-13,MUDWEIGHT,,,0,cabeçalho sem unidade
 R13,curva sem unidade no cabeçalho,baixa,15/9-13,DEPTH_MD,,,0,cabeçalho sem unidade
 R13,curva sem unidade no cabeçalho,baixa,15/9-13,X_LOC,,,0,cabeçalho sem unidade
@@ -825,61 +825,128 @@ R13,curva sem unidade no cabeçalho,baixa,7/1-2 S,Y_LOC,,,0,cabeçalho sem unida
 R13,curva sem unidade no cabeçalho,baixa,7/1-2 S,Z_LOC,,,0,cabeçalho sem unidade
 R14,PEF com efeito de baritina,media,15/9-13,PEF,494.22,2882.60,227,1.4% das leituras acima de 10 (máx. 66): baritina da lama
 R14,PEF com efeito de baritina,media,15/9-14,PEF,480.48,2710.92,113,0.7% das leituras acima de 10 (máx. 176): baritina da lama
-R14,PEF com efeito de baritina,media,15/9-15,PEF,486.47,3201.04,337,1.9% das leituras acima de 10 (máx. 366): baritina da lama
+R14,PEF com efeito de baritina,media,15/9-15,PEF,486.47,3207.42,377,2.1% das leituras acima de 10 (máx. 366): baritina da lama
 R14,PEF com efeito de baritina,media,15/9-17,PEF,472.58,2994.57,372,2.2% das leituras acima de 10 (máx. 276): baritina da lama
-R14,PEF com efeito de baritina,media,16/10-1,PEF,1388.35,3156.26,1347,11.6% das leituras acima de 10 (máx. 66): baritina da lama
-R14,PEF com efeito de baritina,media,16/10-2,PEF,2766.96,3148.63,224,8.9% das leituras acima de 10 (máx. 167): baritina da lama
-R14,PEF com efeito de baritina,media,16/10-5,PEF,2631.93,3020.14,13,0.5% das leituras acima de 10 (máx. 12): baritina da lama
+R14,PEF com efeito de baritina,media,16/10-1,PEF,1388.35,3162.19,1386,11.9% das leituras acima de 10 (máx. 66): baritina da lama
+R14,PEF com efeito de baritina,media,16/10-2,PEF,2766.96,3157.75,257,10.0% das leituras acima de 10 (máx. 167): baritina da lama
 R14,PEF com efeito de baritina,media,16/2-6,PEF,1928.08,1957.42,60,0.7% das leituras acima de 10 (máx. 29): baritina da lama
 R14,PEF com efeito de baritina,media,16/2-7,PEF,840.76,1540.57,513,4.6% das leituras acima de 10 (máx. 15): baritina da lama
 R14,PEF com efeito de baritina,media,16/4-1,PEF,761.80,770.16,24,2.1% das leituras acima de 10 (máx. 14): baritina da lama
-R14,PEF com efeito de baritina,media,16/7-5,PEF,1251.62,2908.26,94,0.9% das leituras acima de 10 (máx. 167): baritina da lama
+R14,PEF com efeito de baritina,media,16/7-5,PEF,1251.62,2909.02,99,0.9% das leituras acima de 10 (máx. 167): baritina da lama
 R14,PEF com efeito de baritina,media,16/7-6,PEF,1110.63,2590.81,362,3.4% das leituras acima de 10 (máx. 242): baritina da lama
 R14,PEF com efeito de baritina,media,25/10-10,PEF,1103.44,2472.81,76,0.8% das leituras acima de 10 (máx. 13): baritina da lama
 R14,PEF com efeito de baritina,media,25/11-19 S,PEF,984.26,2188.10,309,3.9% das leituras acima de 10 (máx. 290): baritina da lama
 R14,PEF com efeito de baritina,media,25/2-13,PEF,687.51,3317.87,517,2.8% das leituras acima de 10 (máx. 289): baritina da lama
-R14,PEF com efeito de baritina,media,25/2-14,PEF,1198.79,3357.95,3159,19.9% das leituras acima de 10 (máx. 130): baritina da lama
+R14,PEF com efeito de baritina,media,25/2-14,PEF,1149.99,3357.95,3476,21.4% das leituras acima de 10 (máx. 130): baritina da lama
 R14,PEF com efeito de baritina,media,25/2-7,PEF,751.49,3610.00,222,0.9% das leituras acima de 10 (máx. 13): baritina da lama
 R14,PEF com efeito de baritina,media,25/3-1,PEF,693.84,3907.58,2001,9.4% das leituras acima de 10 (máx. 254): baritina da lama
 R14,PEF com efeito de baritina,media,25/4-5,PEF,1950.29,2671.22,104,1.8% das leituras acima de 10 (máx. 12): baritina da lama
 R14,PEF com efeito de baritina,media,25/5-3,PEF,1154.44,2878.88,2998,27.0% das leituras acima de 10 (máx. 364): baritina da lama
-R14,PEF com efeito de baritina,media,25/5-4,PEF,1200.79,2553.90,2061,15.8% das leituras acima de 10 (máx. 22): baritina da lama
+R14,PEF com efeito de baritina,media,25/5-4,PEF,1183.77,2553.90,2166,16.5% das leituras acima de 10 (máx. 22): baritina da lama
 R14,PEF com efeito de baritina,media,25/7-2,PEF,250.59,2968.50,6737,49.7% das leituras acima de 10 (máx. 383): baritina da lama
 R14,PEF com efeito de baritina,media,25/8-5 S,PEF,1237.24,3039.81,1621,11.6% das leituras acima de 10 (máx. 21): baritina da lama
 R14,PEF com efeito de baritina,media,25/8-7,PEF,2114.14,2317.06,23,0.9% das leituras acima de 10 (máx. 14): baritina da lama
 R14,PEF com efeito de baritina,media,25/9-1,PEF,1967.99,2422.47,19,0.5% das leituras acima de 10 (máx. 13): baritina da lama
 R14,PEF com efeito de baritina,media,26/4-1,PEF,1648.82,3677.11,2216,16.7% das leituras acima de 10 (máx. 304): baritina da lama
-R14,PEF com efeito de baritina,media,29/6-1,PEF,4202.67,4837.11,1555,43.7% das leituras acima de 10 (máx. 377): baritina da lama
+R14,PEF com efeito de baritina,media,29/6-1,PEF,4202.67,4837.42,1557,43.8% das leituras acima de 10 (máx. 377): baritina da lama
 R14,PEF com efeito de baritina,media,30/3-3,PEF,962.73,2054.85,4002,33.9% das leituras acima de 10 (máx. 318): baritina da lama
 R14,PEF com efeito de baritina,media,30/3-5 S,PEF,3891.78,4305.37,459,10.4% das leituras acima de 10 (máx. 334): baritina da lama
 R14,PEF com efeito de baritina,media,30/6-5,PEF,2784.38,3123.03,60,2.3% das leituras acima de 10 (máx. 273): baritina da lama
 R14,PEF com efeito de baritina,media,31/2-10,PEF,510.34,1502.90,123,1.3% das leituras acima de 10 (máx. 42): baritina da lama
-R14,PEF com efeito de baritina,media,31/2-7,PEF,1489.05,1664.91,57,5.0% das leituras acima de 10 (máx. 298): baritina da lama
-R14,PEF com efeito de baritina,media,31/2-8,PEF,1728.53,3386.24,82,0.8% das leituras acima de 10 (máx. 275): baritina da lama
+R14,PEF com efeito de baritina,media,31/2-7,PEF,1489.05,1667.19,72,6.2% das leituras acima de 10 (máx. 298): baritina da lama
+R14,PEF com efeito de baritina,media,31/2-8,PEF,1728.52,3386.24,82,0.8% das leituras acima de 10 (máx. 275): baritina da lama
 R14,PEF com efeito de baritina,media,31/2-9,PEF,445.07,1723.23,491,5.6% das leituras acima de 10 (máx. 198): baritina da lama
 R14,PEF com efeito de baritina,media,31/3-2,PEF,504.22,1625.53,85,6.9% das leituras acima de 10 (máx. 65): baritina da lama
 R14,PEF com efeito de baritina,media,31/4-5,PEF,1949.52,2535.79,27,0.6% das leituras acima de 10 (máx. 57): baritina da lama
 R14,PEF com efeito de baritina,media,33/6-3 S,PEF,4168.79,4422.78,1303,31.4% das leituras acima de 10 (máx. 16): baritina da lama
-R14,PEF com efeito de baritina,media,33/9-17,PEF,572.90,3232.44,5815,33.2% das leituras acima de 10 (máx. 353): baritina da lama
-R14,PEF com efeito de baritina,media,34/10-16 R,PEF,222.74,3999.33,6292,25.2% das leituras acima de 10 (máx. 382): baritina da lama
+R14,PEF com efeito de baritina,media,33/9-17,PEF,572.90,3238.07,5852,33.4% das leituras acima de 10 (máx. 353): baritina da lama
+R14,PEF com efeito de baritina,media,34/10-16 R,PEF,220.91,3999.33,6304,25.3% das leituras acima de 10 (máx. 382): baritina da lama
 R14,PEF com efeito de baritina,media,34/10-21,PEF,589.95,4012.38,2110,9.4% das leituras acima de 10 (máx. 61): baritina da lama
-R14,PEF com efeito de baritina,media,34/10-35,PEF,1052.38,4308.68,5809,28.3% das leituras acima de 10 (máx. 130): baritina da lama
-R14,PEF com efeito de baritina,media,34/11-2 S,PEF,1157.87,4559.02,2791,11.9% das leituras acima de 10 (máx. 63): baritina da lama
+R14,PEF com efeito de baritina,media,34/10-35,PEF,1052.38,4312.02,5831,28.4% das leituras acima de 10 (máx. 130): baritina da lama
+R14,PEF com efeito de baritina,media,34/11-2 S,PEF,1100.42,4559.02,3167,13.3% das leituras acima de 10 (máx. 207): baritina da lama
 R14,PEF com efeito de baritina,media,34/12-1,PEF,4119.23,4692.73,169,1.7% das leituras acima de 10 (máx. 113): baritina da lama
-R14,PEF com efeito de baritina,media,34/2-4,PEF,2126.87,4112.15,1696,13.0% das leituras acima de 10 (máx. 105): baritina da lama
+R14,PEF com efeito de baritina,media,34/2-4,PEF,2126.87,4115.79,1706,13.0% das leituras acima de 10 (máx. 105): baritina da lama
 R14,PEF com efeito de baritina,media,34/3-1 A,PEF,3803.78,4146.08,146,6.1% das leituras acima de 10 (máx. 12): baritina da lama
 R14,PEF com efeito de baritina,media,34/3-2 S,PEF,2408.54,4321.77,727,5.8% das leituras acima de 10 (máx. 140): baritina da lama
-R14,PEF com efeito de baritina,media,34/3-3 A,PEF,2242.69,5005.90,1284,7.2% das leituras acima de 10 (máx. 44): baritina da lama
+R14,PEF com efeito de baritina,media,34/3-3 A,PEF,2242.69,5007.27,1288,7.2% das leituras acima de 10 (máx. 44): baritina da lama
 R14,PEF com efeito de baritina,media,34/4-10 R,PEF,3729.13,4233.92,39,1.1% das leituras acima de 10 (máx. 24): baritina da lama
 R14,PEF com efeito de baritina,media,34/5-1 S,PEF,3151.33,3875.00,304,2.6% das leituras acima de 10 (máx. 13): baritina da lama
-R14,PEF com efeito de baritina,media,34/6-1 S,PEF,3395.12,4344.06,170,2.7% das leituras acima de 10 (máx. 95): baritina da lama
+R14,PEF com efeito de baritina,media,34/6-1 S,PEF,3395.12,4365.95,186,2.9% das leituras acima de 10 (máx. 95): baritina da lama
 R14,PEF com efeito de baritina,media,34/7-21,PEF,1068.36,2970.79,1297,10.3% das leituras acima de 10 (máx. 47): baritina da lama
-R14,PEF com efeito de baritina,media,34/8-1,PEF,890.99,3617.56,3437,19.3% das leituras acima de 10 (máx. 372): baritina da lama
+R14,PEF com efeito de baritina,media,34/8-1,PEF,890.99,3621.67,3464,19.4% das leituras acima de 10 (máx. 372): baritina da lama
 R14,PEF com efeito de baritina,media,35/11-1,PEF,989.21,2235.91,405,2.6% das leituras acima de 10 (máx. 213): baritina da lama
 R14,PEF com efeito de baritina,media,35/11-5,PEF,948.78,3778.72,3490,18.9% das leituras acima de 10 (máx. 320): baritina da lama
-R14,PEF com efeito de baritina,media,35/11-6,PEF,471.46,3966.40,4488,19.5% das leituras acima de 10 (máx. 337): baritina da lama
+R14,PEF com efeito de baritina,media,35/11-6,PEF,390.14,3997.41,5056,21.4% das leituras acima de 10 (máx. 337): baritina da lama
 R14,PEF com efeito de baritina,media,35/11-7,PEF,900.88,1481.37,339,2.6% das leituras acima de 10 (máx. 24): baritina da lama
 R14,PEF com efeito de baritina,media,35/12-1,PEF,967.57,2392.87,886,6.7% das leituras acima de 10 (máx. 238): baritina da lama
 R14,PEF com efeito de baritina,media,35/4-1,PEF,1365.61,4916.79,1047,4.9% das leituras acima de 10 (máx. 52): baritina da lama
 R14,PEF com efeito de baritina,media,35/8-4,PEF,3278.95,3361.49,544,20.1% das leituras acima de 10 (máx. 24): baritina da lama
-R14,PEF com efeito de baritina,media,7/1-2 S,PEF,2927.78,3093.92,19,1.2% das leituras acima de 10 (máx. 13): baritina da lama
+R14,PEF com efeito de baritina,media,7/1-2 S,PEF,2927.78,3172.20,34,2.1% das leituras acima de 10 (máx. 14): baritina da lama
+R15,amostra sem trajetória,media,15/9-13,Z_LOC,25.00,98.57,485,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,15/9-15,Z_LOC,25.00,3209.86,1024,"5% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,15/9-23,Z_LOC,110.00,3224.94,439,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/1-2,Z_LOC,104.90,323.93,1442,"8% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/1-6 A,Z_LOC,140.10,2193.92,453,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/10-1,Z_LOC,100.00,3162.19,676,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/10-2,Z_LOC,97.99,3157.75,478,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/10-3,Z_LOC,114.91,2850.00,639,"4% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/11-1 S,Z_LOC,88.59,3047.88,10383,"53% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/4-1,Z_LOC,112.61,2912.91,649,"4% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/5-3,Z_LOC,130.05,1993.57,450,"4% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/7-4,Z_LOC,140.10,2786.57,249,"1% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/7-6,Z_LOC,103.02,2733.08,1145,"7% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,16/8-1,Z_LOC,96.98,2313.90,2698,"18% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,17/11-1,Z_LOC,148.46,3269.32,240,"1% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,17/4-1,Z_LOC,136.45,4000.13,1955,"8% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/10-10,Z_LOC,182.01,2514.45,436,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/10-9,Z_LOC,0.05,2985.02,954,"5% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/11-15,Z_LOC,150.00,2034.95,134,"1% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/11-19 S,Z_LOC,155.10,2249.96,533,"4% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/11-24,Z_LOC,135.08,2118.83,631,"5% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/11-5,Z_LOC,146.61,2173.68,1607,"12% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/2-14,Z_LOC,139.04,3629.27,7016,"31% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/3-1,Z_LOC,136.00,3930.22,291,"1% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/4-5,Z_LOC,145.59,4354.47,426,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/5-1,Z_LOC,145.00,3432.46,485,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/5-3,Z_LOC,153.36,2898.03,318,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/5-4,Z_LOC,145.00,3188.04,7002,"35% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/6-1,Z_LOC,140.00,2880.86,827,"5% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/6-2,Z_LOC,145.00,2399.92,355,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/6-3,Z_LOC,138.10,2476.92,375,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/7-2,Z_LOC,4859.23,4949.98,598,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/8-7,Z_LOC,975.06,2383.64,567,"6% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,25/9-1,Z_LOC,80.15,2532.06,388,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,29/3-1,Z_LOC,132.61,202.99,464,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,30/3-5 S,Z_LOC,433.17,3891.63,22754,"81% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,30/6-5,Z_LOC,74.07,3556.23,681,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/2-1,Z_LOC,0.08,2437.24,2677,"17% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/2-10,Z_LOC,25.00,1838.82,2096,"18% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/3-1,Z_LOC,349.12,2379.84,471,"4% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/3-3,Z_LOC,348.25,481.40,877,"6% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/3-4,Z_LOC,388.01,2122.63,2400,"21% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/4-5,Z_LOC,144.83,254.88,725,"4% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/5-4 S,Z_LOC,164.79,437.02,1792,"16% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,31/6-5,Z_LOC,326.38,2088.97,331,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,32/2-1,Z_LOC,379.07,1299.88,381,"6% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,33/6-3 S,Z_LOC,360.12,4443.91,487,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/10-16 R,Z_LOC,163.15,222.58,392,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/11-1,Z_LOC,65.88,275.79,1382,"5% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/11-2 S,Z_LOC,286.00,4757.99,5816,"20% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/2-4,Z_LOC,419.61,4115.79,717,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/5-1 A,Z_LOC,411.99,4415.97,464,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/5-1 S,Z_LOC,411.99,3903.12,385,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/6-1 S,Z_LOC,406.04,4371.57,6292,"24% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,34/8-7 R,Z_LOC,23.00,5479.04,2281,"6% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/11-12,Z_LOC,359.97,3380.82,293,"1% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/11-13,Z_LOC,386.08,3292.01,585,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/11-15 S,Z_LOC,390.04,3252.35,657,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/11-6,Z_LOC,389.99,3997.41,587,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/8-4,Z_LOC,390.04,3722.79,501,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/8-6 S,Z_LOC,411.02,4043.82,674,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/9-10 S,Z_LOC,388.97,3622.01,489,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/9-2,Z_LOC,368.96,2891.86,4252,"26% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/9-5,Z_LOC,307.70,3530.86,1095,"5% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/9-6 S,Z_LOC,395.00,3754.81,526,"2% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,35/9-8,Z_LOC,392.02,3255.85,505,"3% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,36/7-3,Z_LOC,373.00,2949.25,1320,"8% das amostras sem X, Y e Z"
+R15,amostra sem trajetória,media,7/1-1,Z_LOC,82.60,2815.71,1861,"10% das amostras sem X, Y e Z"

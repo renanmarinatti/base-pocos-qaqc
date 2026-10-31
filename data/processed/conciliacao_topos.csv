@@ -3066,7 +3066,7 @@ perfil_force × sodir,16/11-1 S,SHETLAND,1,SHETLAND GP.,1625.01,SHETLAND GP,1625
 perfil_force × sodir,16/11-1 S,SMITH BANK,1,Smith Bank Fm.,2236.05,SMITH BANK FM,2236.00,0.05,igual,False
 perfil_force × sodir,16/11-1 S,SOLA,1,Sola Fm.,2025.07,SOLA FM,2025.00,0.07,igual,False
 perfil_force × sodir,16/11-1 S,TAU,1,Tau Fm.,2124.03,TAU FM,2124.00,0.03,igual,False
-perfil_force × sodir,16/11-1 S,TAU,2,,,TAU FM,2152.00,,fora do trecho perfilado,False
+perfil_force × sodir,16/11-1 S,TAU,2,,,TAU FM,2152.00,,só na Sodir,False
 perfil_force × sodir,16/11-1 S,TOR,1,Tor Fm.,1642.03,TOR FM,1642.00,0.03,igual,False
 perfil_force × sodir,16/11-1 S,VESTLAND,1,VESTLAND GP.,2165.07,VESTLAND GP,2165.00,0.07,igual,False
 perfil_force × sodir,16/11-1 S,ZECHSTEIN,1,ZECHSTEIN GP.,2255.05,ZECHSTEIN GP,2255.00,0.05,igual,False
@@ -3225,7 +3225,7 @@ perfil_force × sodir,16/5-3,TOR,1,Tor Fm.,1512.03,TOR FM,1512.00,0.03,igual,Fal
 perfil_force × sodir,16/5-3,UTSIRA,1,,,UTSIRA FM,768.00,,fora do trecho perfilado,False
 perfil_force × sodir,16/5-3,VAALE,1,,,VÅLE FM,1501.00,,fora do trecho perfilado,False
 perfil_force × sodir,16/5-3,VIKING,1,VIKING GP.,1898.11,VIKING GP,1898.00,0.11,igual,False
-perfil_force × sodir,16/5-3,ZECHSTEIN,1,,,ZECHSTEIN GP,1990.00,,fora do trecho perfilado,False
+perfil_force × sodir,16/5-3,ZECHSTEIN,1,,,ZECHSTEIN GP,1990.00,,só na Sodir,False
 perfil_force × sodir,16/7-4,BALDER,1,Balder Fm.,2052.11,BALDER FM,2052.00,0.11,igual,False
 perfil_force × sodir,16/7-4,BLODOEKS,1,Blodoeks Fm.,2465.09,BLODØKS FM,2465.00,0.09,igual,False
 perfil_force × sodir,16/7-4,CROMER KNOLL,1,CROMER KNOLL GP.,2493.06,CROMER KNOLL GP,2493.00,0.06,igual,False

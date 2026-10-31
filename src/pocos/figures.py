@@ -264,6 +264,106 @@ def run() -> None:
     tops_path = PROCESSED / "conciliacao_topos.csv"
     if tops_path.exists():
         tops_reconciliation(pd.read_csv(tops_path), FIGURES / "e4_topos.png")
+    from pocos.database import DB
+
+    if DB.exists():
+        schema_diagram(FIGURES / "e5_esquema.png")
+
+
+def schema_diagram(path) -> None:
+    """Esquema do banco: tabelas, chaves e para onde cada uma aponta."""
+    import duckdb
+
+    from pocos.database import DB
+
+    con = duckdb.connect(str(DB), read_only=True)
+    counts = {
+        t: con.execute(f"SELECT count(*) FROM {t}").fetchone()[0]
+        for (t,) in con.execute("SELECT table_name FROM duckdb_tables()").fetchall()
+    }
+    fks = con.execute(
+        "SELECT DISTINCT table_name, referenced_table FROM duckdb_constraints() "
+        "WHERE constraint_type = 'FOREIGN KEY'"
+    ).fetchall()
+    con.close()
+    pos = {
+        "fonte": (0.5, 0.92),
+        "poco": (0.5, 0.62),
+        "curva": (0.12, 0.92),
+        "amostra": (0.12, 0.3),
+        "litologia_intervalo": (0.37, 0.3),
+        "topo": (0.63, 0.3),
+        "testemunho": (0.88, 0.3),
+        "problema": (0.88, 0.62),
+        "regra": (0.88, 0.92),
+        "decisao": (0.12, 0.62),
+    }
+    keys = {
+        "fonte": "arquivo",
+        "poco": "poco",
+        "curva": "curva",
+        "amostra": "poco, md",
+        "litologia_intervalo": "poco, topo_md",
+        "topo": "poco, unidade_base, ocorrência",
+        "testemunho": "poco, numero",
+        "problema": "id",
+        "regra": "regra",
+        "decisao": "decisao",
+    }
+    fig, ax = plt.subplots(figsize=(11, 6.5), dpi=150)
+    fig.patch.set_facecolor(PAPER)
+    ax.set_facecolor(PAPER)
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0.12, 1.02)
+    ax.axis("off")
+    for src, dst in fks:
+        (x0, y0), (x1, y1) = pos[src], pos[dst]
+        ax.annotate(
+            "",
+            xy=(x1, y1),
+            xytext=(x0, y0),
+            arrowprops={
+                "arrowstyle": "-|>",
+                "color": LINE,
+                "lw": 1.2,
+                "shrinkA": 28,
+                "shrinkB": 28,
+            },
+        )
+    for name, (x, y) in pos.items():
+        ax.text(
+            x,
+            y,
+            f"{name}\n" + f"{counts[name]:,}".replace(",", ".") + f" linhas\nchave: {keys[name]}",
+            ha="center",
+            va="center",
+            fontsize=8,
+            color=INK,
+            linespacing=1.4,
+            bbox={
+                "boxstyle": "round,pad=0.6",
+                "facecolor": PAPER,
+                "edgecolor": BRAND if name in ("poco", "amostra") else LINE,
+                "linewidth": 1.4,
+            },
+        )
+    ax.set_title(
+        "Banco final (DuckDB): 10 tabelas; a seta aponta para a tabela referenciada",
+        loc="left",
+        fontsize=10,
+        color=INK,
+    )
+    fig.text(
+        0.01,
+        0.01,
+        "curva e decisao são catálogos sem chave estrangeira; o dicionário "
+        "completo está em docs/dicionario.md. " + SOURCE_NOTE,
+        fontsize=6.5,
+        color=INK_2,
+    )
+    fig.tight_layout(rect=(0, 0.03, 1, 1))
+    fig.savefig(path, facecolor=PAPER)
+    plt.close(fig)
 
 
 if __name__ == "__main__":

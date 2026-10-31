@@ -75,19 +75,27 @@ Sodir (D04). Os 2 topos do poço que fogem dos 3 m continuam como divergência c
 sinal de que mudou a referência de profundidade do poço.
 
 ## D06 — `30/3-5 S`: posição e mesa rotativa não comparáveis pela primeira amostra
-**Visto (E2):** a primeira amostra do perfil está a 2,4 km da cabeça do poço, e
+**Visto (E2):** a primeira amostra com coordenada está a 2,4 km da cabeça do poço, e
 `MD − TVDSS` ali passa a mesa rotativa em mais de 1.000 m.
 
+**Corrigido na E5:** a primeira leitura (E2) dizia que o perfil começava abaixo do ponto
+de desvio. Não é isso. O perfil começa a 433 m, mas de 433 a 3.891 m só tem GR: as
+colunas de trajetória (X, Y, Z e `DEPTH_MD`) ficam vazias. A trajetória só começa a
+3.891 m, já desviada. O banco final recusou a carga por causa disso (MD nulo), e a
+padronização passou a usar o índice do LAS (`DEPT`), que existe em toda amostra. O mesmo
+acontece em 117 poços (115.746 amostras); em 68 deles passa de 1% do poço (regra R15).
+
 **Decidido:** não comparar posição nem referência vertical desse poço pela primeira
-amostra. A conciliação marca "perfil começa abaixo do ponto de desvio".
+amostra com trajetória. A conciliação marca "trajetória do perfil só começa a 3892 m, já
+desviada".
 
 **Por quê:** a coordenada do perfil é a do poço naquela profundidade, já desviado. Não é
-erro de coordenada.
+erro de coordenada; é trajetória ausente no trecho raso.
 
-## D07 — Referência vertical diferente da mesa rotativa em 6 poços
-**Visto (E4):** em `16/2-11 A`, `25/11-15`, `29/6-1`, `34/10-35`, `34/6-1 S` e
-`35/11-5`, `MD − TVDSS` na primeira amostra difere da mesa rotativa da Sodir em 0,5 a
-2,0 m.
+## D07 — Referência vertical diferente da mesa rotativa em 5 poços
+**Visto (E4, refeito na E5 com o MD corrigido):** em `16/2-11 A`, `29/6-1`, `34/10-35`,
+`34/6-1 S` e `35/11-5`, `MD − TVDSS` na primeira amostra com trajetória difere da mesa
+rotativa da Sodir em 0,6 a 2,0 m.
 
 **Decidido:** a mesa rotativa oficial é a da Sodir. O MD do perfil não é deslocado.
 
@@ -95,16 +103,17 @@ erro de coordenada.
 do que separa profundidade de sondador e de perfilagem (D08). Deslocar o perfil seria
 inventar uma correção. A diferença fica marcada por poço.
 
-## D08 — Perfil abaixo da profundidade final oficial em 30 poços
-**Visto (E4):** o perfil termina de 5 a 40 m abaixo da profundidade final que a Sodir
-publica.
+## D08 — Perfil abaixo da profundidade final oficial em 50 poços
+**Visto (E4, refeito na E5 com o MD corrigido):** o perfil termina de 5 a 100 m abaixo da
+profundidade final que a Sodir publica (mediana 8 m). Com o MD antigo, que perdia o
+trecho sem trajetória, eram 30 poços e no máximo 40 m.
 
-**Decidido:** manter o perfil. Marcar o poço; acima de 20 m (`29/3-1`, 40 m), marcar para
-verificação.
+**Decidido:** manter o perfil. Marcar o poço; acima de 20 m, marcar para verificação:
+`25/7-2` (100 m), `29/3-1` (40 m), `33/9-17` (27 m) e `35/4-1` (22 m).
 
 **Por quê:** a profundidade final oficial costuma ser a do sondador (medida pela
 tubulação), e a do perfil é a do cabo da perfilagem. As duas diferem por estiramento do
-cabo e da coluna, e alguns metros são comuns. 40 m já não se explica assim.
+cabo e da coluna, e alguns metros são comuns. 100 m já não se explica assim.
 
 ## D09 — `MUDWEIGHT` fica fora do banco final
 **Visto (E3):** nenhum dos 29 poços declara unidade, e a mediana por poço cai em três

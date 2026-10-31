@@ -370,6 +370,26 @@ def r14_barite_pef(base: Base, p: dict) -> pd.DataFrame:
     )
 
 
+def r15_missing_trajectory(base: Base, p: dict) -> pd.DataFrame:
+    s = base.samples[["poco", "md", "tvdss"]]
+    missing = s["tvdss"].isna()
+    frac = missing.groupby(s["poco"]).mean()
+    rows = []
+    for well, f in frac[frac >= p["fracao_minima_para_disparar"]].items():
+        md = s.loc[missing & (s["poco"] == well), "md"]
+        rows.append(
+            {
+                "poco": well,
+                "curva": "Z_LOC",
+                "topo_md": md.min(),
+                "base_md": md.max(),
+                "amostras": len(md),
+                "detalhe": f"{f:.0%} das amostras sem X, Y e Z",
+            }
+        )
+    return issues(rows)
+
+
 RULES: dict[str, Callable[[Base, dict], pd.DataFrame]] = {
     "R01": r01_declared_but_empty,
     "R02": r02_out_of_range,
@@ -385,6 +405,7 @@ RULES: dict[str, Callable[[Base, dict], pd.DataFrame]] = {
     "R12": r12_alternative_null,
     "R13": r13_undeclared_unit,
     "R14": r14_barite_pef,
+    "R15": r15_missing_trajectory,
 }
 
 

@@ -96,6 +96,8 @@ def plant(rule: str, b: Base) -> None:
             s.loc[3, "GR"] = -999.0
         case "R14":
             s.loc[:5, "PEF"] = 120.0
+        case "R15":
+            s.loc[:10, "tvdss"] = np.nan
         case "R13":
             b.declared.loc[len(b.declared)] = ["A", "MUDWEIGHT", "_"]
 
