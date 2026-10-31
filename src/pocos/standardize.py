@@ -10,7 +10,8 @@ Entra o bruto de data/raw/; sai Parquet em data/interim/, uma tabela por entidad
   descrição de testemunho;
 - topos: os topos de grupo e formação nas três versões (perfis do FORCE, cópia NPD 2020,
   Sodir de hoje), todos em MD a partir da mesa rotativa;
-- testemunhos: os intervalos testemunhados da Sodir, em metros.
+- testemunhos: os intervalos testemunhados da Sodir, em metros;
+- curvas_declaradas: as curvas que o cabeçalho de cada LAS declara (a E3 confere se têm dado).
 
 Toda tabela leva `fonte` e `arquivo` (linhagem até o manifesto). Nada é corrigido em
 silêncio: cada troca de nome, conversão de unidade e nulo substituído entra em
@@ -76,6 +77,13 @@ def read_las(zip_path: Path, aliases: dict, units: dict, log: dict) -> pd.DataFr
             renames = {}
             for curve in las.curves[1:]:
                 canonical = aliases.get(curve.mnemonic.upper())
+                log["curvas_declaradas"].append(
+                    {
+                        "poco_force": well,
+                        "curva": canonical or curve.mnemonic,
+                        "unidade": curve.unit,
+                    }
+                )
                 if canonical is None:
                     log["curvas_fora_do_catalogo"].append([well, curve.mnemonic])
                     continue
@@ -110,16 +118,20 @@ def lithology_intervals(samples: pd.DataFrame, names: dict, step: float) -> pd.D
         | (s["md"].diff() > step * 1.5)  # buraco no perfil interrompe o intervalo
     )
     s["intervalo"] = breaks.cumsum()
+    # A base de um intervalo é o topo da amostra seguinte, quando ela é contígua; senão,
+    # a última amostra mais um passo. Somar o passo nominal em toda base acumularia o erro
+    # de arredondamento do MD (o passo real varia entre 0,1519 e 0,1521 m).
+    nxt = s.groupby("poco")["md"].shift(-1)
+    s["base"] = nxt.where((nxt - s["md"]) <= step * 1.5, s["md"] + step)
     out = s.groupby("intervalo").agg(
         poco=("poco", "first"),
         topo_md=("md", "min"),
-        base_md=("md", "max"),
+        base_md=("base", "last"),
         codigo=("LITOLOGIA", "first"),
         confianca=("CONFIANCA", "median"),
         amostras=("md", "size"),
         arquivo=("arquivo", "first"),
     )
-    out["base_md"] = out["base_md"] + step
     out["codigo"] = out["codigo"].astype(int)
     out["litologia"] = out["codigo"].map(names).fillna("código desconhecido")
     return out.reset_index(drop=True)
@@ -289,6 +301,7 @@ def run() -> dict:
         "unidade_divergente": [],
         "nulos_declarados": 0,
         "nulo_remanescente": 0,
+        "curvas_declaradas": [],
     }
 
     samples = read_las(LAS_ZIP, alias_map(catalog), units, log)
@@ -302,6 +315,8 @@ def run() -> dict:
         [log_tops(exceptions), npd2020_tops(exceptions), sodir_tops(official)], ignore_index=True
     )
     core = cores(official, log)
+    declared = pd.DataFrame(log.pop("curvas_declaradas"))
+    declared["poco"] = declared["poco_force"].map(lambda w: official_name(w, exceptions))
 
     INTERIM.mkdir(parents=True, exist_ok=True)
     for name, df in {
@@ -310,6 +325,7 @@ def run() -> dict:
         "litologia": lith,
         "topos": tops,
         "testemunhos": core,
+        "curvas_declaradas": declared,
     }.items():
         df.to_parquet(INTERIM / f"{name}.parquet", index=False)
 

@@ -11,7 +11,10 @@ curvas:
   RHOB:      {unidade: g/cm3,  faixa: [1.0, 3.2],   descricao: densidade da formação}
   DRHO:      {unidade: g/cm3,  faixa: [-1.0, 1.0],  descricao: correção da densidade (controle de qualidade)}
   NPHI:      {unidade: m3/m3,  faixa: [-0.15, 1.0], descricao: porosidade neutrão}
-  PEF:       {unidade: b/e,    faixa: [0, 20],      descricao: fator fotoelétrico}
+  # PEF: minerais de rocha ficam entre 1,8 (quartzo) e 5,1 (calcita); a baritina da lama
+  # chega a 267. Acima de 10 é efeito de lama (regra R14), não impossível; impossível é
+  # passar da baritina pura com folga.
+  PEF:       {unidade: b/e,    faixa: [0, 400],     descricao: fator fotoelétrico}
   DTC:       {unidade: us/ft,  faixa: [40, 240],    descricao: vagarosidade compressional}
   DTS:       {unidade: us/ft,  faixa: [60, 600],    descricao: vagarosidade cisalhante}
   RDEP:      {unidade: ohm.m,  faixa: [0.01, 100000], descricao: resistividade profunda}

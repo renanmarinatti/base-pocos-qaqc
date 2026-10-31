@@ -1,0 +1,134 @@
+# Catálogo de regras de qualidade (E3).
+#
+# Cada regra tem um identificador estável (o registro de problemas e os testes citam por
+# ele), a gravidade, a entidade que ela examina e os parâmetros. O código de cada regra
+# fica em src/pocos/quality.py; o que muda com frequência — limites, gravidade, ligar e
+# desligar — fica aqui.
+#
+# Gravidade:
+#   alta  — o dado está errado ou impede o uso (profundidade fora de ordem, valor impossível)
+#   media — o dado existe mas exige cuidado (curva vazia, trecho sem perfil, poço arrombado)
+#   baixa — informação para o intérprete (interpretação de baixa confiança)
+#
+# Nota de qualidade por poço: 100 menos a penalidade de cada regra disparada no poço,
+# uma vez por regra (não por amostra). Simples de explicar e de recalcular.
+
+penalidade: {alta: 15, media: 5, baixa: 1}
+
+regras:
+  R01:
+    nome: curva declarada sem dado
+    descricao: O cabeçalho do LAS declara a curva, mas quase todas as amostras estão vazias.
+    gravidade: media
+    entidade: curva
+    parametros: {fracao_minima_valida: 0.01}
+
+  R02:
+    nome: valor fisicamente impossível
+    descricao: Amostra fora da faixa física da curva (config/mnemonicos.yaml).
+    gravidade: alta
+    entidade: curva
+    # Códigos de nulo ficam com a R12, para o mesmo valor não disparar duas regras.
+    parametros: {fracao_minima_para_disparar: 0.001, ignorar_codigos: [-999, -9999, -99999, 9999]}
+
+  R03:
+    nome: profundidade fora de ordem ou repetida
+    descricao: MD não cresce de uma amostra para a seguinte no mesmo poço.
+    gravidade: alta
+    entidade: amostra
+    parametros: {}
+
+  R04:
+    nome: trecho sem perfil
+    descricao: Salto de MD maior que o limite entre amostras consecutivas (lacuna no perfil).
+    gravidade: media
+    entidade: intervalo
+    parametros: {lacuna_minima_m: 1.0}
+
+  R05:
+    nome: geometria impossível (MD − TVD diminui)
+    descricao: >
+      Ao descer o poço, MD − TVD só pode crescer (vertical: fica igual; desviado: cresce).
+      Se diminui entre amostras, a trajetória ou a profundidade está errada. A regra usa só
+      o próprio perfil; a comparação com a mesa rotativa da Sodir é conciliação (E4).
+    gravidade: alta
+    entidade: amostra
+    parametros: {tolerancia_m: 0.5}
+
+  R06:
+    nome: intervalos de litologia sobrepostos
+    descricao: Dois intervalos topo–base do mesmo poço ocupam a mesma profundidade.
+    gravidade: alta
+    entidade: intervalo
+    parametros: {}
+
+  R07:
+    nome: curvas básicas incompletas
+    descricao: No trecho perfilado, a fração de amostras válidas de uma curva básica é baixa.
+    gravidade: media
+    entidade: curva
+    parametros:
+      curvas: [GR, RHOB, NPHI, DTC, RDEP]
+      fracao_minima_valida: 0.5
+
+  R08:
+    nome: densidade em poço arrombado
+    descricao: >
+      Trecho com CALI − BS acima do limite ou |DRHO| acima do limite: a leitura de RHOB
+      (e de NPHI) ali não é confiável. A regra marca o trecho; não apaga o dado.
+    gravidade: media
+    entidade: intervalo
+    parametros: {arrombamento_in: 1.0, drho_max: 0.15, fracao_minima_para_disparar: 0.05}
+
+  R09:
+    nome: interpretação de baixa confiança
+    descricao: Fração de amostras com litologia de confiança 3 (a mais baixa) acima do limite.
+    gravidade: baixa
+    entidade: curva
+    parametros: {fracao_maxima: 0.1}
+
+  R10:
+    nome: poço duplicado
+    descricao: Dois arquivos de perfil apontam para o mesmo ramal oficial.
+    gravidade: alta
+    entidade: poco
+    parametros: {}
+
+  R11:
+    nome: topos oficiais fora de ordem
+    descricao: Na Sodir, topo abaixo da própria base, ou duas unidades do mesmo nível sobrepostas.
+    gravidade: alta
+    entidade: topo
+    parametros: {tolerancia_m: 0.5}
+
+  R12:
+    nome: código de nulo diferente do declarado
+    descricao: >
+      Valor que é código de ausência (−999, −9999) mas não é o NULL que o cabeçalho declara
+      (−999,25). A leitura não o reconhece como vazio, e ele entra em média e gráfico como
+      se fosse medida.
+    gravidade: alta
+    entidade: curva
+    parametros: {codigos: [-999, -9999, -99999, 9999]}
+
+  R13:
+    nome: curva sem unidade no cabeçalho
+    descricao: >
+      O cabeçalho do LAS não declara a unidade. Sem unidade, valores de poços diferentes
+      não são comparáveis (ver MUDWEIGHT).
+    gravidade: baixa
+    entidade: curva
+    parametros:
+      # Códigos sem unidade física por natureza.
+      ignorar: [LITOLOGIA, CONFIANCA]
+
+  R14:
+    nome: PEF com efeito de baritina
+    descricao: >
+      PEF acima do limite. Minerais de rocha ficam entre 1,8 (quartzo) e 5,1 (calcita); a
+      baritina (BaSO4), usada para pesar a lama, tem PEF 267. Leitura alta indica lama com
+      baritina invadindo a medida, em geral em trecho arrombado: o PEF ali não serve para
+      separar litologia. Não é valor impossível (R02); é medida contaminada.
+    gravidade: media
+    entidade: curva
+    parametros: {pef_max: 10, fracao_minima_para_disparar: 0.005}

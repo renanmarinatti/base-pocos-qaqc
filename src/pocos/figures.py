@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from pocos.inventory import BRAND, FIGURES, INK, INK_2, LINE, PAPER
-from pocos.standardize import INTERIM
+from pocos.inventory import BRAND, FIGURES, INK, INK_2, LINE, PAPER, PROCESSED
+from pocos.standardize import INTERIM, load_yaml
 
 SOURCE_NOTE = (
     "Fontes: FORCE 2020 (Zenodo 10.5281/zenodo.4351156, CC BY 4.0) e Sodir FactPages (NLOD 2.0)."
@@ -123,12 +123,79 @@ def md_vs_tvd(samples: pd.DataFrame, wells: pd.DataFrame, path) -> None:
     plt.close(fig)
 
 
+def rule_matrix(problems: pd.DataFrame, notes: pd.DataFrame, rules: dict, path) -> None:
+    """Poço × regra, ordenado pela nota: onde cada regra disparou e com que gravidade."""
+    level = {"baixa": 1, "media": 2, "alta": 3}
+    ids = list(rules)
+    order = notes.sort_values(["nota", "poco"])["poco"].tolist()
+    grid = (
+        problems.assign(v=problems["gravidade"].map(level))
+        .pivot_table(index="poco", columns="regra", values="v", aggfunc="max")
+        .reindex(index=order, columns=ids)
+        .fillna(0)
+    )
+    cmap = plt.matplotlib.colors.ListedColormap(["#EDE9E0", "#D9C8DB", "#A27FA6", BRAND])
+    fig, (ax, bx) = plt.subplots(
+        1, 2, figsize=(11, 7.5), dpi=150, gridspec_kw={"width_ratios": [4, 1.3]}
+    )
+    fig.patch.set_facecolor(PAPER)
+    ax.imshow(grid.to_numpy(), aspect="auto", cmap=cmap, vmin=0, vmax=3, interpolation="nearest")
+    hits = problems.groupby("regra")["poco"].nunique().reindex(ids).fillna(0).astype(int)
+    labels = [f"{r}\n{rules[r]['gravidade']}\n{hits[r]} poços" for r in ids]
+    ax.set_xticks(range(len(ids)), labels, fontsize=6.5, color=INK)
+    ax.set_yticks([])
+    ax.set_ylabel(f"{len(order)} poços, da pior para a melhor nota", color=INK_2, fontsize=8)
+    for spine in ax.spines.values():
+        spine.set_color(LINE)
+    ax.set_title("Onde cada regra de qualidade disparou", loc="left", fontsize=10, color=INK)
+    handles = [
+        plt.matplotlib.patches.Patch(color=c, label=t)
+        for c, t in ((BRAND, "alta"), ("#A27FA6", "média"), ("#D9C8DB", "baixa"))
+    ]
+    ax.legend(
+        handles=handles,
+        frameon=False,
+        fontsize=7.5,
+        labelcolor=INK,
+        ncol=3,
+        loc="upper center",
+        bbox_to_anchor=(0.5, -0.1),
+    )
+
+    style(bx)
+    scores = notes.set_index("poco").reindex(order)["nota"]
+    bx.barh(range(len(scores)), scores.to_numpy(), color=BRAND, height=0.8)
+    bx.set_ylim(len(scores) - 0.5, -0.5)
+    bx.set_yticks([])
+    bx.set_xlim(0, 100)
+    bx.set_title("Nota (0–100)", loc="left", fontsize=10, color=INK)
+    fig.text(
+        0.01,
+        0.01,
+        "Nota: 100 menos 15 por regra alta, 5 por média e 1 por baixa, "
+        "uma vez por regra. " + SOURCE_NOTE,
+        fontsize=6.5,
+        color=INK_2,
+    )
+    fig.tight_layout(rect=(0, 0.03, 1, 1))
+    fig.savefig(path, facecolor=PAPER)
+    plt.close(fig)
+
+
 def run() -> None:
     wells = pd.read_parquet(INTERIM / "pocos.parquet")
     samples = pd.read_parquet(INTERIM / "amostras.parquet", columns=["poco", "md", "tvdss"])
     FIGURES.mkdir(parents=True, exist_ok=True)
     well_map(wells, FIGURES / "e2_mapa_pocos.png")
     md_vs_tvd(samples, wells, FIGURES / "e2_md_tvd.png")
+    problems_path = PROCESSED / "problemas.csv"
+    if problems_path.exists():
+        rule_matrix(
+            pd.read_csv(problems_path),
+            pd.read_csv(PROCESSED / "notas.csv"),
+            load_yaml("regras.yaml")["regras"],
+            FIGURES / "e3_matriz_regras.png",
+        )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,885 @@
+regra,nome,gravidade,poco,curva,topo_md,base_md,amostras,detalhe
+R01,curva declarada sem dado,media,35/8-4,CALI,,,0,declarada no cabeçalho; 0.00% das amostras com dado
+R01,curva declarada sem dado,media,36/7-3,CALI,,,0,declarada no cabeçalho; 0.38% das amostras com dado
+R02,valor fisicamente impossível,alta,34/8-7 R,GR,5439.67,5439.82,2273,"6.3% fora de [0, 500]; mín. -15.6, máx. -1.3"
+R02,valor fisicamente impossível,alta,15/9-17,SGR,3113.43,3119.81,43,"0.2% fora de [0, 500]; mín. -197, máx. -92.6"
+R02,valor fisicamente impossível,alta,31/2-9,SGR,1767.31,1774.61,73,"3.8% fora de [0, 500]; mín. -360, máx. -0.263"
+R02,valor fisicamente impossível,alta,31/4-5,SGR,2590.20,2591.57,10,"0.2% fora de [0, 500]; mín. -190, máx. -58.1"
+R02,valor fisicamente impossível,alta,34/2-4,SGR,3792.19,4113.36,84,"2.3% fora de [0, 500]; mín. -983, máx. 964"
+R02,valor fisicamente impossível,alta,35/11-15 S,SGR,2819.76,2821.89,15,"0.6% fora de [0, 500]; mín. -0.0243, máx. -0.000985"
+R02,valor fisicamente impossível,alta,34/8-7 R,RHOB,368.34,5477.67,21930,"61.1% fora de [1.0, 3.2]; mín. 0, máx. 0.969"
+R02,valor fisicamente impossível,alta,35/8-4,RHOB,3316.95,3317.71,6,"0.2% fora de [1.0, 3.2]; mín. 3.25, máx. 3.36"
+R02,valor fisicamente impossível,alta,16/10-2,DRHO,2770.15,2772.43,12,"0.5% fora de [-1.0, 1.0]; mín. -1.1, máx. -1.01"
+R02,valor fisicamente impossível,alta,16/10-3,DRHO,1203.53,2138.64,13,"0.1% fora de [-1.0, 1.0]; mín. -1.8, máx. -1.04"
+R02,valor fisicamente impossível,alta,16/7-6,DRHO,1110.63,1152.28,275,"2.6% fora de [-1.0, 1.0]; mín. -1.3, máx. -1.03"
+R02,valor fisicamente impossível,alta,25/11-15,DRHO,1118.70,1272.52,1004,"17.0% fora de [-1.0, 1.0]; mín. -1.29, máx. -1"
+R02,valor fisicamente impossível,alta,25/3-1,DRHO,693.84,2838.41,127,"0.6% fora de [-1.0, 1.0]; mín. -1.5, máx. 1.77"
+R02,valor fisicamente impossível,alta,25/5-3,DRHO,1153.83,1174.80,139,"1.2% fora de [-1.0, 1.0]; mín. -1.21, máx. -1"
+R02,valor fisicamente impossível,alta,25/7-2,DRHO,252.11,279.17,36,"0.1% fora de [-1.0, 1.0]; mín. -1.1, máx. 1.48"
+R02,valor fisicamente impossível,alta,25/9-1,DRHO,1916.31,2526.59,15,"0.4% fora de [-1.0, 1.0]; mín. -7.43e+03, máx. -1"
+R02,valor fisicamente impossível,alta,30/3-5 S,DRHO,3891.78,3960.48,357,"8.1% fora de [-1.0, 1.0]; mín. -1.26, máx. -1"
+R02,valor fisicamente impossível,alta,30/6-5,DRHO,901.40,949.28,302,"1.7% fora de [-1.0, 1.0]; mín. -1.74, máx. -1"
+R02,valor fisicamente impossível,alta,31/2-9,DRHO,446.89,450.69,33,"0.4% fora de [-1.0, 1.0]; mín. 1.02, máx. 4.87"
+R02,valor fisicamente impossível,alta,31/3-1,DRHO,816.37,1161.56,219,"2.1% fora de [-1.0, 1.0]; mín. -3.45, máx. 1.53"
+R02,valor fisicamente impossível,alta,31/3-3,DRHO,793.46,2570.64,76,"0.7% fora de [-1.0, 1.0]; mín. -2.01, máx. 4.31"
+R02,valor fisicamente impossível,alta,31/4-10,DRHO,1981.59,2319.94,2227,"100.0% fora de [-1.0, 1.0]; mín. 1.47, máx. 2.68"
+R02,valor fisicamente impossível,alta,31/4-5,DRHO,894.95,910.00,100,"0.8% fora de [-1.0, 1.0]; mín. -1.97, máx. -1.06"
+R02,valor fisicamente impossível,alta,31/6-5,DRHO,640.26,649.07,59,"0.6% fora de [-1.0, 1.0]; mín. -1.96, máx. -1.31"
+R02,valor fisicamente impossível,alta,33/9-17,DRHO,515.59,1784.03,433,"2.4% fora de [-1.0, 1.0]; mín. -1.28, máx. -1"
+R02,valor fisicamente impossível,alta,34/10-35,DRHO,1050.41,1079.44,153,"0.7% fora de [-1.0, 1.0]; mín. -6.1, máx. -1.01"
+R02,valor fisicamente impossível,alta,34/11-2 S,DRHO,,,376,"1.6% fora de [-1.0, 1.0]; mín. -1.31, máx. -1"
+R02,valor fisicamente impossível,alta,34/7-20,DRHO,1157.41,1201.33,290,"2.2% fora de [-1.0, 1.0]; mín. -1.45, máx. -1.01"
+R02,valor fisicamente impossível,alta,34/7-21,DRHO,1068.36,1088.42,127,"1.0% fora de [-1.0, 1.0]; mín. -1.43, máx. -1.01"
+R02,valor fisicamente impossível,alta,34/8-3,DRHO,1276.10,1297.54,97,"0.7% fora de [-1.0, 1.0]; mín. -2.84, máx. -1"
+R02,valor fisicamente impossível,alta,34/8-7 R,DRHO,3213.18,3269.11,362,"2.6% fora de [-1.0, 1.0]; mín. -1.17, máx. -1"
+R02,valor fisicamente impossível,alta,35/11-13,DRHO,2901.68,2924.93,154,"6.3% fora de [-1.0, 1.0]; mín. 1.44, máx. 1.95"
+R02,valor fisicamente impossível,alta,35/11-5,DRHO,948.78,997.42,243,"1.3% fora de [-1.0, 1.0]; mín. -1.45, máx. -1"
+R02,valor fisicamente impossível,alta,35/11-6,DRHO,953.15,978.08,127,"0.5% fora de [-1.0, 1.0]; mín. -1.31, máx. -1"
+R02,valor fisicamente impossível,alta,35/11-7,DRHO,907.41,948.15,19,"0.1% fora de [-1.0, 1.0]; mín. -1.68, máx. -1.01"
+R02,valor fisicamente impossível,alta,36/7-3,DRHO,1355.98,2924.78,10091,"100.0% fora de [-1.0, 1.0]; mín. -1.01, máx. 2.85"
+R02,valor fisicamente impossível,alta,15/9-15,DTC,1458.21,1469.46,81,"0.4% fora de [40, 240]; mín. 7.42, máx. 39.7"
+R02,valor fisicamente impossível,alta,16/10-1,DTC,1387.90,1395.65,224,"1.1% fora de [40, 240]; mín. 10.8, máx. 39.4"
+R02,valor fisicamente impossível,alta,34/10-21,DTC,1896.08,3657.15,28,"0.1% fora de [40, 240]; mín. 39, máx. 320"
+R02,valor fisicamente impossível,alta,34/10-33,DTC,3868.60,3878.18,65,"0.3% fora de [40, 240]; mín. 38.2, máx. 38.2"
+R02,valor fisicamente impossível,alta,34/8-7 R,DTC,368.34,1397.84,9047,"25.2% fora de [40, 240]; mín. 0, máx. 36.9"
+R02,valor fisicamente impossível,alta,35/11-10,DTS,1150.39,1586.63,74,"0.6% fora de [60, 600]; mín. 600, máx. 725"
+R02,valor fisicamente impossível,alta,35/11-6,DTS,1261.26,1268.70,23,"0.2% fora de [60, 600]; mín. 601, máx. 627"
+R02,valor fisicamente impossível,alta,31/6-5,RDEP,376.23,378.51,16,"0.1% fora de [0.01, 100000]; mín. 0.0001, máx. 0.0001"
+R02,valor fisicamente impossível,alta,33/9-17,RDEP,254.61,260.08,37,"0.2% fora de [0.01, 100000]; mín. 0.01, máx. 0.01"
+R02,valor fisicamente impossível,alta,31/6-5,RMED,376.23,378.51,16,"0.1% fora de [0.01, 100000]; mín. 0.0001, máx. 0.0001"
+R02,valor fisicamente impossível,alta,31/3-1,RSHA,1276.93,1279.36,17,"0.5% fora de [0.01, 100000]; mín. 0.0001, máx. 0.0001"
+R02,valor fisicamente impossível,alta,15/9-15,RXO,171.83,3201.04,7799,"37.2% fora de [0.01, 100000]; mín. -1e+03, máx. -0.00605"
+R02,valor fisicamente impossível,alta,25/5-4,RXO,1200.79,3179.53,12191,"90.6% fora de [0.01, 100000]; mín. -1e+03, máx. -219"
+R02,valor fisicamente impossível,alta,35/11-15 S,RXO,2805.78,2820.98,101,"3.7% fora de [0.01, 100000]; mín. 0.00154, máx. 0.00758"
+R02,valor fisicamente impossível,alta,16/10-3,SP,416.78,1199.43,3676,"33.3% fora de [-500, 500]; mín. 500, máx. 527"
+R02,valor fisicamente impossível,alta,25/2-13,SP,201.42,630.82,2934,"12.0% fora de [-500, 500]; mín. -4.5e+03, máx. -500"
+R02,valor fisicamente impossível,alta,34/10-35,CALI,3355.33,4199.09,861,"4.0% fora de [4, 30]; mín. 3.02, máx. 3.81"
+R02,valor fisicamente impossível,alta,34/8-7 R,CALI,3327.33,5266.85,52,"0.4% fora de [4, 30]; mín. 2.34, máx. 3.97"
+R02,valor fisicamente impossível,alta,15/9-15,DCAL,497.42,3201.04,152,"0.9% fora de [-5, 15]; mín. -12.2, máx. 1e+04"
+R02,valor fisicamente impossível,alta,16/10-1,DCAL,439.26,1413.58,480,"2.7% fora de [-5, 15]; mín. -8.48, máx. -5.28"
+R02,valor fisicamente impossível,alta,16/10-3,DCAL,415.26,421.80,44,"0.3% fora de [-5, 15]; mín. -7.46, máx. -6.75"
+R02,valor fisicamente impossível,alta,16/4-1,DCAL,2900.14,2908.80,59,"0.4% fora de [-5, 15]; mín. 8.8e+03, máx. 1e+04"
+R02,valor fisicamente impossível,alta,16/7-4,DCAL,297.57,1417.66,267,"1.5% fora de [-5, 15]; mín. -23.2, máx. 1e+04"
+R02,valor fisicamente impossível,alta,16/7-6,DCAL,1110.93,1152.73,278,"2.6% fora de [-5, 15]; mín. -5.47, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/10-10,DCAL,1094.93,1102.22,25,"0.3% fora de [-5, 15]; mín. -6.4, máx. -5.03"
+R02,valor fisicamente impossível,alta,25/10-9,DCAL,1332.78,1345.55,32,"0.3% fora de [-5, 15]; mín. -5.5, máx. -5.03"
+R02,valor fisicamente impossível,alta,25/11-5,DCAL,2163.95,2172.46,65,"0.6% fora de [-5, 15]; mín. 1.75e+03, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/2-13,DCAL,694.66,713.96,77,"0.4% fora de [-5, 15]; mín. -8.68, máx. -5.09"
+R02,valor fisicamente impossível,alta,25/2-14,DCAL,3097.72,3622.58,102,"0.6% fora de [-5, 15]; mín. -6.28, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/3-1,DCAL,693.84,1983.10,86,"0.4% fora de [-5, 15]; mín. -7.28, máx. -5.04"
+R02,valor fisicamente impossível,alta,25/4-5,DCAL,2136.03,2173.12,198,"0.9% fora de [-5, 15]; mín. -5.71, máx. -5.02"
+R02,valor fisicamente impossível,alta,25/6-1,DCAL,256.89,2872.05,302,"1.7% fora de [-5, 15]; mín. 1.92e+03, máx. 1e+04"
+R02,valor fisicamente impossível,alta,25/7-2,DCAL,4445.94,4702.67,32,"0.1% fora de [-5, 15]; mín. -5.41, máx. 15"
+R02,valor fisicamente impossível,alta,25/8-7,DCAL,,,85,"1.0% fora de [-5, 15]; mín. -5.09, máx. -5"
+R02,valor fisicamente impossível,alta,26/4-1,DCAL,698.98,3306.38,1105,"5.6% fora de [-5, 15]; mín. -11.4, máx. 16.3"
+R02,valor fisicamente impossível,alta,31/2-19 S,DCAL,4077.20,4087.08,66,"0.4% fora de [-5, 15]; mín. 9.51e+03, máx. 1e+04"
+R02,valor fisicamente impossível,alta,7/1-1,DCAL,365.17,1449.23,222,"1.4% fora de [-5, 15]; mín. -7.91, máx. -5.04"
+R02,valor fisicamente impossível,alta,31/3-4,BS,,,101,"0.9% fora de [4, 36]; mín. 37.6, máx. 42"
+R02,valor fisicamente impossível,alta,15/9-17,ROP,995.46,1002.76,28,"0.1% fora de [0, 1000]; mín. 1.04e+03, máx. 2.22e+03"
+R02,valor fisicamente impossível,alta,25/6-2,ROP,257.18,2391.71,14044,"100.0% fora de [0, 1000]; mín. 2.95e+03, máx. 9.24e+04"
+R02,valor fisicamente impossível,alta,26/4-1,ROP,1285.70,1293.45,52,"0.3% fora de [0, 1000]; mín. -0.118, máx. -2.88e-05"
+R02,valor fisicamente impossível,alta,30/6-5,ROP,275.77,1081.67,1231,"18.6% fora de [0, 1000]; mín. 1e+03, máx. 4.84e+03"
+R02,valor fisicamente impossível,alta,32/2-1,ROP,837.96,1026.59,19,"0.3% fora de [0, 1000]; mín. 1.08e+03, máx. 1.52e+03"
+R02,valor fisicamente impossível,alta,34/11-1,ROPA,650.92,1390.86,1591,"18.2% fora de [0, 1000]; mín. 1e+03, máx. 3.99e+03"
+R02,valor fisicamente impossível,alta,35/11-11,ROPA,383.64,3104.44,84,"0.4% fora de [0, 1000]; mín. -999, máx. -2.29"
+R02,valor fisicamente impossível,alta,35/8-4,ROPA,650.11,3456.94,154,"0.7% fora de [0, 1000]; mín. -999, máx. -9.38"
+R02,valor fisicamente impossível,alta,15/9-13,MUDWEIGHT,617.04,3279.93,17520,"100.0% fora de [0.8, 2.6]; mín. 0.129, máx. 0.157"
+R02,valor fisicamente impossível,alta,15/9-14,MUDWEIGHT,194.11,3562.73,22163,"100.0% fora de [0.8, 2.6]; mín. 0.125, máx. 427"
+R02,valor fisicamente impossível,alta,15/9-15,MUDWEIGHT,350.13,3199.98,18750,"100.0% fora de [0.8, 2.6]; mín. 0.131, máx. 0.192"
+R02,valor fisicamente impossível,alta,15/9-17,MUDWEIGHT,212.05,3119.97,19132,"100.0% fora de [0.8, 2.6]; mín. 0.126, máx. 0.162"
+R02,valor fisicamente impossível,alta,16/1-6 A,MUDWEIGHT,562.05,2190.28,10737,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.174"
+R02,valor fisicamente impossível,alta,16/10-1,MUDWEIGHT,550.83,3149.88,17100,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.17"
+R02,valor fisicamente impossível,alta,16/10-2,MUDWEIGHT,162.75,2960.91,18796,"100.0% fora de [0.8, 2.6]; mín. 126, máx. 186"
+R02,valor fisicamente impossível,alta,16/10-3,MUDWEIGHT,209.45,2847.41,17422,"100.0% fora de [0.8, 2.6]; mín. 0.126, máx. 0.175"
+R02,valor fisicamente impossível,alta,16/4-1,MUDWEIGHT,293.03,2908.80,17211,"100.0% fora de [0.8, 2.6]; mín. 0.131, máx. 0.156"
+R02,valor fisicamente impossível,alta,16/7-4,MUDWEIGHT,1378.14,2778.97,9223,"53.4% fora de [0.8, 2.6]; mín. 0.134, máx. 0.168"
+R02,valor fisicamente impossível,alta,25/11-15,MUDWEIGHT,1332.10,2017.17,4625,"100.0% fora de [0.8, 2.6]; mín. 0.133, máx. 0.139"
+R02,valor fisicamente impossível,alta,25/11-19 S,MUDWEIGHT,1000.07,2239.78,8224,"100.0% fora de [0.8, 2.6]; mín. 0.162, máx. 0.165"
+R02,valor fisicamente impossível,alta,25/2-7,MUDWEIGHT,220.10,1799.99,10395,"100.0% fora de [0.8, 2.6]; mín. 0.126, máx. 0.147"
+R02,valor fisicamente impossível,alta,25/3-1,MUDWEIGHT,180.08,3921.86,4384,"17.6% fora de [0.8, 2.6]; mín. 0.24, máx. 2.76"
+R02,valor fisicamente impossível,alta,25/5-1,MUDWEIGHT,634.14,3429.87,18394,"100.0% fora de [0.8, 2.6]; mín. 0.127, máx. 0.149"
+R02,valor fisicamente impossível,alta,25/6-1,MUDWEIGHT,268.14,2872.05,17184,"100.0% fora de [0.8, 2.6]; mín. 0.132, máx. 0.156"
+R02,valor fisicamente impossível,alta,25/6-2,MUDWEIGHT,242.13,2391.86,14144,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.162"
+R02,valor fisicamente impossível,alta,25/6-3,MUDWEIGHT,1224.14,2473.43,8230,"100.0% fora de [0.8, 2.6]; mín. 0.153, máx. 0.155"
+R02,valor fisicamente impossível,alta,25/8-7,MUDWEIGHT,1065.04,2379.69,8652,"100.0% fora de [0.8, 2.6]; mín. 0.151, máx. 0.156"
+R02,valor fisicamente impossível,alta,25/9-1,MUDWEIGHT,1050.06,2524.92,9704,"100.0% fora de [0.8, 2.6]; mín. 0.129, máx. 0.152"
+R02,valor fisicamente impossível,alta,26/4-1,MUDWEIGHT,752.02,3684.86,19329,"100.0% fora de [0.8, 2.6]; mín. 0.138, máx. 0.201"
+R07,curvas básicas incompletas,media,16/1-2,RHOB,,,0,9% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/1-2,NPHI,,,0,9% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/1-6 A,RHOB,,,0,26% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/1-6 A,NPHI,,,0,27% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/1-6 A,DTC,,,0,26% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/10-2,RHOB,,,0,13% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/10-2,NPHI,,,0,13% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/10-3,NPHI,,,0,26% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/10-5,RHOB,,,0,14% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/10-5,NPHI,,,0,14% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/11-1 S,RHOB,,,0,18% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/11-1 S,NPHI,,,0,19% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/11-1 S,RDEP,,,0,47% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/5-3,RHOB,,,0,25% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/5-3,NPHI,,,0,24% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/5-3,DTC,,,0,27% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/8-1,RHOB,,,0,46% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,16/8-1,NPHI,,,0,34% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,17/4-1,NPHI,,,0,29% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/11-15,NPHI,,,0,47% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/11-24,RHOB,,,0,49% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/11-24,NPHI,,,0,49% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/11-5,RHOB,,,0,39% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/11-5,NPHI,,,0,50% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/2-13,NPHI,,,0,16% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/2-14,NPHI,,,0,17% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/2-7,NPHI,,,0,48% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/3-1,NPHI,,,0,25% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/5-1,NPHI,,,0,16% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/5-3,NPHI,,,0,20% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/5-4,NPHI,,,0,13% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/6-1,NPHI,,,0,25% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/6-2,NPHI,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/7-2,NPHI,,,0,20% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/8-5 S,DTC,,,0,40% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/8-7,RHOB,,,0,27% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/8-7,NPHI,,,0,29% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/9-1,RHOB,,,0,23% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/9-1,NPHI,,,0,23% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,25/9-1,DTC,,,0,26% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,29/3-1,RHOB,,,0,31% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,29/3-1,NPHI,,,0,31% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,29/6-1,RHOB,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,29/6-1,NPHI,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,30/3-3,NPHI,,,0,19% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,30/3-5 S,RHOB,,,0,16% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,30/3-5 S,NPHI,,,0,16% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,30/3-5 S,DTC,,,0,13% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,30/3-5 S,RDEP,,,0,19% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/2-21 S,RHOB,,,0,42% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/2-21 S,NPHI,,,0,42% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/3-4,RHOB,,,0,47% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/3-4,NPHI,,,0,48% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/4-10,NPHI,,,0,16% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/4-5,NPHI,,,0,35% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/5-4 S,RHOB,,,0,21% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/5-4 S,NPHI,,,0,21% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/5-4 S,DTC,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,31/6-5,NPHI,,,0,39% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,32/2-1,RHOB,,,0,49% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,32/2-1,NPHI,,,0,49% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,33/5-2,NPHI,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,33/6-3 S,RHOB,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,33/6-3 S,NPHI,,,0,46% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/10-33,NPHI,,,0,20% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/10-35,NPHI,,,0,14% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/11-1,RHOB,,,0,14% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/11-1,NPHI,,,0,14% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/11-1,DTC,,,0,21% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/11-2 S,NPHI,,,0,40% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/12-1,RHOB,,,0,34% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/12-1,NPHI,,,0,35% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/2-4,NPHI,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/3-1 A,RHOB,,,0,10% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/3-1 A,NPHI,,,0,10% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/3-2 S,RHOB,,,0,48% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/3-2 S,NPHI,,,0,49% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/4-10 R,RHOB,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/4-10 R,NPHI,,,0,15% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/4-10 R,DTC,,,0,48% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/5-1 S,RHOB,,,0,50% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/5-1 S,NPHI,,,0,10% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/6-1 S,RHOB,,,0,24% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/6-1 S,NPHI,,,0,25% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/6-1 S,DTC,,,0,27% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/7-13,RHOB,,,0,46% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/7-20,NPHI,,,0,50% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/7-21,NPHI,,,0,43% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,34/8-7 R,NPHI,,,0,41% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-1,NPHI,,,0,45% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-12,RHOB,,,0,17% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-12,NPHI,,,0,19% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-13,RHOB,,,0,12% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-13,NPHI,,,0,30% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-13,DTC,,,0,22% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-15 S,RHOB,,,0,12% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-15 S,NPHI,,,0,14% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-15 S,DTC,,,0,26% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-5,NPHI,,,0,34% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/11-7,NPHI,,,0,45% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/12-1,NPHI,,,0,45% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/3-7 S,RHOB,,,0,21% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/3-7 S,NPHI,,,0,22% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/8-4,RHOB,,,0,12% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/8-4,NPHI,,,0,12% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/8-4,DTC,,,0,12% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/8-6 S,DTC,,,0,9% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-10 S,RHOB,,,0,20% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-10 S,NPHI,,,0,22% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-2,NPHI,,,0,40% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-2,DTC,,,0,21% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-5,RHOB,,,0,23% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-5,NPHI,,,0,25% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-5,DTC,,,0,43% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-8,RHOB,,,0,25% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,35/9-8,NPHI,,,0,24% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,7/1-1,RHOB,,,0,24% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,7/1-1,NPHI,,,0,24% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,7/1-2 S,RHOB,,,0,8% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,7/1-2 S,NPHI,,,0,8% do trecho perfilado com dado
+R07,curvas básicas incompletas,media,7/1-2 S,DTC,,,0,16% do trecho perfilado com dado
+R08,densidade em poço arrombado,media,15/9-15,RHOB,515.05,3201.04,7929,45% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/1-2,RHOB,2660.02,2923.89,555,32% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/1-6 A,RHOB,1206.23,1713.45,439,13% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/10-1,RHOB,1414.65,3152.92,1417,12% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/10-2,RHOB,2766.96,2971.86,620,25% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/10-3,RHOB,1236.67,2794.82,1872,18% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/11-1 S,RHOB,1806.80,1832.49,2296,64% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/2-11 A,RHOB,754.18,2218.40,970,9% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/2-7,RHOB,710.04,2173.96,2576,23% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/4-1,RHOB,500.36,2883.11,9412,59% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,16/7-4,RHOB,172.32,2526.65,8887,52% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/11-15,RHOB,1118.70,1980.08,2822,26% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/11-5,RHOB,1390.27,2171.86,2110,41% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/2-13,RHOB,729.77,3893.95,4317,21% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/2-14,RHOB,1198.79,3622.58,7084,44% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/2-7,RHOB,198.67,4094.27,12653,49% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/3-1,RHOB,693.84,3929.92,7777,37% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/4-5,RHOB,853.15,4213.11,9661,42% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/5-3,RHOB,1153.83,2878.42,1323,12% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/5-4,RHOB,1200.79,3050.63,4805,37% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/6-1,RHOB,260.84,2872.05,5931,35% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/6-2,RHOB,1031.01,2300.21,3104,35% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/6-3,RHOB,1235.08,1872.27,942,11% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/7-2,RHOB,250.74,4828.98,19173,66% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/8-5 S,RHOB,1198.93,3326.78,1981,14% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/8-7,RHOB,2010.02,2329.22,129,5% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,25/9-1,RHOB,1966.77,2526.59,330,9% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,26/4-1,RHOB,1675.58,3684.86,4868,37% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,30/3-5 S,RHOB,3891.78,4304.91,503,11% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,31/2-1,RHOB,528.28,2396.36,632,6% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,31/2-19 S,RHOB,1310.04,4086.47,4055,22% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,31/3-1,RHOB,849.36,2376.35,1480,15% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,31/3-3,RHOB,793.46,2573.38,1047,9% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,31/4-10,RHOB,1981.59,2319.94,2227,25% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,31/5-4 S,RHOB,1515.92,1567.14,338,14% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,31/6-8,RHOB,1412.06,2092.56,538,6% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,32/2-1,RHOB,851.33,1291.07,238,8% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,33/5-2,RHOB,3606.59,4327.83,1384,6% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,33/9-17,RHOB,572.90,2986.81,1567,9% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/10-33,RHOB,192.48,3843.37,13889,58% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/10-35,RHOB,1052.38,4308.68,1581,8% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/11-1,RHOB,3931.84,4562.49,1491,35% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/7-13,RHOB,1839.47,2858.02,1852,24% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/8-1,RHOB,890.99,3591.11,8561,48% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,34/8-7 R,RHOB,3213.18,5425.84,9450,26% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,35/11-11,RHOB,1248.21,2997.73,1126,9% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,35/11-7,RHOB,889.63,2897.25,4967,38% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,35/12-1,RHOB,997.81,3025.65,1543,12% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,35/4-1,RHOB,1363.79,4873.77,2358,11% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,35/8-4,RHOB,3278.95,3344.46,432,16% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,35/9-2,RHOB,1004.32,2872.86,2692,22% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,36/7-3,RHOB,1355.98,2924.78,10089,100% do RHOB em trecho arrombado ou com DRHO alto
+R08,densidade em poço arrombado,media,7/1-1,RHOB,2137.49,2474.47,1423,32% do RHOB em trecho arrombado ou com DRHO alto
+R09,interpretação de baixa confiança,baixa,16/8-1,CONFIANCA,,,0,14% da litologia com confiança 3 (baixa)
+R09,interpretação de baixa confiança,baixa,34/4-10 R,CONFIANCA,,,0,11% da litologia com confiança 3 (baixa)
+R09,interpretação de baixa confiança,baixa,35/11-12,CONFIANCA,,,0,46% da litologia com confiança 3 (baixa)
+R09,interpretação de baixa confiança,baixa,35/9-2,CONFIANCA,,,0,24% da litologia com confiança 3 (baixa)
+R12,código de nulo diferente do declarado,alta,34/11-2 S,RXO,1157.87,4745.83,24020,"valor -999 é código de nulo, não medida"
+R12,código de nulo diferente do declarado,alta,34/11-2 S,SP,2966.22,3744.30,5515,"valor -999 é código de nulo, não medida"
+R13,curva sem unidade no cabeçalho,baixa,15/9-13,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-13,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-13,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-13,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-13,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-14,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-14,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-14,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-14,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-14,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-15,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-15,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-15,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-15,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-15,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-17,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-17,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-17,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-17,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-17,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-23,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-23,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-23,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-23,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,15/9-23,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-2,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-2,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-2,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-2,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-2,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-6 A,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-6 A,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-6 A,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-6 A,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/1-6 A,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-2,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-2,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-2,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-2,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-2,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-3,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-5,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/10-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/11-1 S,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/11-1 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/11-1 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/11-1 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/11-1 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-11 A,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-11 A,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-11 A,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-11 A,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-11 A,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-16,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-16,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-16,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-16,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-6,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-6,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-6,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-6,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-6,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-7,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-7,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-7,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-7,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/2-7,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/4-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/4-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/4-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/4-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/4-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/5-3,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/5-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/5-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/5-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/5-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-4,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-4,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-4,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-4,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-4,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-5,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-6,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-6,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-6,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/7-6,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/8-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/8-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/8-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/8-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,16/8-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/11-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/11-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/11-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/11-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/11-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/4-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/4-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/4-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,17/4-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-10,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-10,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-10,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-10,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-10,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-9,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-9,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-9,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-9,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/10-9,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-15,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-15,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-15,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-15,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-15,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-19 S,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-19 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-19 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-19 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-19 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-24,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-24,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-24,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-24,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-24,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-5,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/11-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-13,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-13,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-13,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-13,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-14,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-14,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-14,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-14,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-7,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-7,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-7,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-7,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/2-7,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/3-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/3-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/3-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/3-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/3-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/4-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/4-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/4-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/4-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-4,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-4,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-4,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/5-4,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-2,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-2,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-2,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-2,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-2,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-3,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/6-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/7-2,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/7-2,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/7-2,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/7-2,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-5 S,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-5 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-5 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-5 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-5 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-7,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-7,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-7,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-7,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/8-7,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/9-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/9-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/9-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/9-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,25/9-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,26/4-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,26/4-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,26/4-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,26/4-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,26/4-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/3-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/3-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/3-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/3-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/6-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/6-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/6-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,29/6-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-5 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-5 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-5 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/3-5 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/6-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/6-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/6-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,30/6-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-10,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-10,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-10,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-10,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-19 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-19 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-19 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-19 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-21 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-21 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-21 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-21 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-21 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-7,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-7,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-7,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-7,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-8,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-8,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-8,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-8,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-9,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-9,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-9,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/2-9,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-2,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-2,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-2,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-2,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-4,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-4,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-4,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-4,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/3-4,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-10,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-10,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-10,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-10,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-10,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/4-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/5-4 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/5-4 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/5-4 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/5-4 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-8,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-8,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-8,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,31/6-8,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,32/2-1,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,32/2-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,32/2-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,32/2-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,32/2-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/5-2,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/5-2,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/5-2,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/5-2,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/6-3 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/6-3 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/6-3 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/6-3 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/6-3 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-17,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-17,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-17,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-17,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,33/9-17,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-16 R,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-16 R,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-16 R,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-16 R,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-19,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-19,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-19,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-19,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-21,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-21,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-21,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-21,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-33,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-33,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-33,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-33,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-35,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-35,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-35,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/10-35,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-1,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-2 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-2 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-2 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-2 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/11-2 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/12-1,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/12-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/12-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/12-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/12-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/2-4,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/2-4,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/2-4,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/2-4,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-1 A,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-1 A,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-1 A,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-1 A,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-1 A,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-2 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-2 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-2 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-2 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-2 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-3 A,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-3 A,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-3 A,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-3 A,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/3-3 A,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/4-10 R,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/4-10 R,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/4-10 R,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/4-10 R,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/4-10 R,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 A,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 A,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 A,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 A,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 A,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/5-1 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/6-1 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/6-1 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/6-1 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/6-1 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/6-1 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-13,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-13,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-13,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-13,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-20,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-20,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-20,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-20,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-21,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-21,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-21,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/7-21,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-7 R,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-7 R,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-7 R,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,34/8-7 R,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-10,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-10,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-10,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-10,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-11,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-11,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-11,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-11,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-11,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-12,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-12,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-12,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-12,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-13,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-13,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-13,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-13,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-13,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-15 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-15 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-15 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-15 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-15 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-6,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-6,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-6,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-6,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-7,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-7,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-7,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/11-7,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/12-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/12-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/12-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/12-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/3-7 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/3-7 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/3-7 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/3-7 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/3-7 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/4-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/4-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/4-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/4-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/6-2 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/6-2 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/6-2 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/6-2 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/6-2 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-4,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-4,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-4,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-4,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-4,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-6 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-6 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-6 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-6 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/8-6 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-10 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-10 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-10 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-10 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-2,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-2,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-2,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-2,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-5,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-5,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-5,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-5,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-5,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-6 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-6 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-6 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-6 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-6 S,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-7,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-7,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-7,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-7,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-7,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-8,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-8,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-8,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-8,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,35/9-8,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,36/7-3,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,36/7-3,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,36/7-3,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,36/7-3,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,36/7-3,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-1,MUDWEIGHT,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-1,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-1,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-1,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-1,Z_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-2 S,ROPA,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-2 S,DEPTH_MD,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-2 S,X_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-2 S,Y_LOC,,,0,cabeçalho sem unidade
+R13,curva sem unidade no cabeçalho,baixa,7/1-2 S,Z_LOC,,,0,cabeçalho sem unidade
+R14,PEF com efeito de baritina,media,15/9-13,PEF,494.22,2882.60,227,1.4% das leituras acima de 10 (máx. 66): baritina da lama
+R14,PEF com efeito de baritina,media,15/9-14,PEF,480.48,2710.92,113,0.7% das leituras acima de 10 (máx. 176): baritina da lama
+R14,PEF com efeito de baritina,media,15/9-15,PEF,486.47,3201.04,337,1.9% das leituras acima de 10 (máx. 366): baritina da lama
+R14,PEF com efeito de baritina,media,15/9-17,PEF,472.58,2994.57,372,2.2% das leituras acima de 10 (máx. 276): baritina da lama
+R14,PEF com efeito de baritina,media,16/10-1,PEF,1388.35,3156.26,1347,11.6% das leituras acima de 10 (máx. 66): baritina da lama
+R14,PEF com efeito de baritina,media,16/10-2,PEF,2766.96,3148.63,224,8.9% das leituras acima de 10 (máx. 167): baritina da lama
+R14,PEF com efeito de baritina,media,16/10-5,PEF,2631.93,3020.14,13,0.5% das leituras acima de 10 (máx. 12): baritina da lama
+R14,PEF com efeito de baritina,media,16/2-6,PEF,1928.08,1957.42,60,0.7% das leituras acima de 10 (máx. 29): baritina da lama
+R14,PEF com efeito de baritina,media,16/2-7,PEF,840.76,1540.57,513,4.6% das leituras acima de 10 (máx. 15): baritina da lama
+R14,PEF com efeito de baritina,media,16/4-1,PEF,761.80,770.16,24,2.1% das leituras acima de 10 (máx. 14): baritina da lama
+R14,PEF com efeito de baritina,media,16/7-5,PEF,1251.62,2908.26,94,0.9% das leituras acima de 10 (máx. 167): baritina da lama
+R14,PEF com efeito de baritina,media,16/7-6,PEF,1110.63,2590.81,362,3.4% das leituras acima de 10 (máx. 242): baritina da lama
+R14,PEF com efeito de baritina,media,25/10-10,PEF,1103.44,2472.81,76,0.8% das leituras acima de 10 (máx. 13): baritina da lama
+R14,PEF com efeito de baritina,media,25/11-19 S,PEF,984.26,2188.10,309,3.9% das leituras acima de 10 (máx. 290): baritina da lama
+R14,PEF com efeito de baritina,media,25/2-13,PEF,687.51,3317.87,517,2.8% das leituras acima de 10 (máx. 289): baritina da lama
+R14,PEF com efeito de baritina,media,25/2-14,PEF,1198.79,3357.95,3159,19.9% das leituras acima de 10 (máx. 130): baritina da lama
+R14,PEF com efeito de baritina,media,25/2-7,PEF,751.49,3610.00,222,0.9% das leituras acima de 10 (máx. 13): baritina da lama
+R14,PEF com efeito de baritina,media,25/3-1,PEF,693.84,3907.58,2001,9.4% das leituras acima de 10 (máx. 254): baritina da lama
+R14,PEF com efeito de baritina,media,25/4-5,PEF,1950.29,2671.22,104,1.8% das leituras acima de 10 (máx. 12): baritina da lama
+R14,PEF com efeito de baritina,media,25/5-3,PEF,1154.44,2878.88,2998,27.0% das leituras acima de 10 (máx. 364): baritina da lama
+R14,PEF com efeito de baritina,media,25/5-4,PEF,1200.79,2553.90,2061,15.8% das leituras acima de 10 (máx. 22): baritina da lama
+R14,PEF com efeito de baritina,media,25/7-2,PEF,250.59,2968.50,6737,49.7% das leituras acima de 10 (máx. 383): baritina da lama
+R14,PEF com efeito de baritina,media,25/8-5 S,PEF,1237.24,3039.81,1621,11.6% das leituras acima de 10 (máx. 21): baritina da lama
+R14,PEF com efeito de baritina,media,25/8-7,PEF,2114.14,2317.06,23,0.9% das leituras acima de 10 (máx. 14): baritina da lama
+R14,PEF com efeito de baritina,media,25/9-1,PEF,1967.99,2422.47,19,0.5% das leituras acima de 10 (máx. 13): baritina da lama
+R14,PEF com efeito de baritina,media,26/4-1,PEF,1648.82,3677.11,2216,16.7% das leituras acima de 10 (máx. 304): baritina da lama
+R14,PEF com efeito de baritina,media,29/6-1,PEF,4202.67,4837.11,1555,43.7% das leituras acima de 10 (máx. 377): baritina da lama
+R14,PEF com efeito de baritina,media,30/3-3,PEF,962.73,2054.85,4002,33.9% das leituras acima de 10 (máx. 318): baritina da lama
+R14,PEF com efeito de baritina,media,30/3-5 S,PEF,3891.78,4305.37,459,10.4% das leituras acima de 10 (máx. 334): baritina da lama
+R14,PEF com efeito de baritina,media,30/6-5,PEF,2784.38,3123.03,60,2.3% das leituras acima de 10 (máx. 273): baritina da lama
+R14,PEF com efeito de baritina,media,31/2-10,PEF,510.34,1502.90,123,1.3% das leituras acima de 10 (máx. 42): baritina da lama
+R14,PEF com efeito de baritina,media,31/2-7,PEF,1489.05,1664.91,57,5.0% das leituras acima de 10 (máx. 298): baritina da lama
+R14,PEF com efeito de baritina,media,31/2-8,PEF,1728.53,3386.24,82,0.8% das leituras acima de 10 (máx. 275): baritina da lama
+R14,PEF com efeito de baritina,media,31/2-9,PEF,445.07,1723.23,491,5.6% das leituras acima de 10 (máx. 198): baritina da lama
+R14,PEF com efeito de baritina,media,31/3-2,PEF,504.22,1625.53,85,6.9% das leituras acima de 10 (máx. 65): baritina da lama
+R14,PEF com efeito de baritina,media,31/4-5,PEF,1949.52,2535.79,27,0.6% das leituras acima de 10 (máx. 57): baritina da lama
+R14,PEF com efeito de baritina,media,33/6-3 S,PEF,4168.79,4422.78,1303,31.4% das leituras acima de 10 (máx. 16): baritina da lama
+R14,PEF com efeito de baritina,media,33/9-17,PEF,572.90,3232.44,5815,33.2% das leituras acima de 10 (máx. 353): baritina da lama
+R14,PEF com efeito de baritina,media,34/10-16 R,PEF,222.74,3999.33,6292,25.2% das leituras acima de 10 (máx. 382): baritina da lama
+R14,PEF com efeito de baritina,media,34/10-21,PEF,589.95,4012.38,2110,9.4% das leituras acima de 10 (máx. 61): baritina da lama
+R14,PEF com efeito de baritina,media,34/10-35,PEF,1052.38,4308.68,5809,28.3% das leituras acima de 10 (máx. 130): baritina da lama
+R14,PEF com efeito de baritina,media,34/11-2 S,PEF,1157.87,4559.02,2791,11.9% das leituras acima de 10 (máx. 63): baritina da lama
+R14,PEF com efeito de baritina,media,34/12-1,PEF,4119.23,4692.73,169,1.7% das leituras acima de 10 (máx. 113): baritina da lama
+R14,PEF com efeito de baritina,media,34/2-4,PEF,2126.87,4112.15,1696,13.0% das leituras acima de 10 (máx. 105): baritina da lama
+R14,PEF com efeito de baritina,media,34/3-1 A,PEF,3803.78,4146.08,146,6.1% das leituras acima de 10 (máx. 12): baritina da lama
+R14,PEF com efeito de baritina,media,34/3-2 S,PEF,2408.54,4321.77,727,5.8% das leituras acima de 10 (máx. 140): baritina da lama
+R14,PEF com efeito de baritina,media,34/3-3 A,PEF,2242.69,5005.90,1284,7.2% das leituras acima de 10 (máx. 44): baritina da lama
+R14,PEF com efeito de baritina,media,34/4-10 R,PEF,3729.13,4233.92,39,1.1% das leituras acima de 10 (máx. 24): baritina da lama
+R14,PEF com efeito de baritina,media,34/5-1 S,PEF,3151.33,3875.00,304,2.6% das leituras acima de 10 (máx. 13): baritina da lama
+R14,PEF com efeito de baritina,media,34/6-1 S,PEF,3395.12,4344.06,170,2.7% das leituras acima de 10 (máx. 95): baritina da lama
+R14,PEF com efeito de baritina,media,34/7-21,PEF,1068.36,2970.79,1297,10.3% das leituras acima de 10 (máx. 47): baritina da lama
+R14,PEF com efeito de baritina,media,34/8-1,PEF,890.99,3617.56,3437,19.3% das leituras acima de 10 (máx. 372): baritina da lama
+R14,PEF com efeito de baritina,media,35/11-1,PEF,989.21,2235.91,405,2.6% das leituras acima de 10 (máx. 213): baritina da lama
+R14,PEF com efeito de baritina,media,35/11-5,PEF,948.78,3778.72,3490,18.9% das leituras acima de 10 (máx. 320): baritina da lama
+R14,PEF com efeito de baritina,media,35/11-6,PEF,471.46,3966.40,4488,19.5% das leituras acima de 10 (máx. 337): baritina da lama
+R14,PEF com efeito de baritina,media,35/11-7,PEF,900.88,1481.37,339,2.6% das leituras acima de 10 (máx. 24): baritina da lama
+R14,PEF com efeito de baritina,media,35/12-1,PEF,967.57,2392.87,886,6.7% das leituras acima de 10 (máx. 238): baritina da lama
+R14,PEF com efeito de baritina,media,35/4-1,PEF,1365.61,4916.79,1047,4.9% das leituras acima de 10 (máx. 52): baritina da lama
+R14,PEF com efeito de baritina,media,35/8-4,PEF,3278.95,3361.49,544,20.1% das leituras acima de 10 (máx. 24): baritina da lama
+R14,PEF com efeito de baritina,media,7/1-2 S,PEF,2927.78,3093.92,19,1.2% das leituras acima de 10 (máx. 13): baritina da lama
