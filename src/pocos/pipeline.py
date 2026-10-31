@@ -15,6 +15,7 @@ from pocos import (
     quality,
     queries,
     reconcile,
+    report,
     standardize,
 )
 
@@ -28,6 +29,7 @@ STEPS = [
     ("E5 exportação", export.run),
     ("E5 consultas de exemplo", queries.run),
     ("figuras", figures.run),
+    ("E6 relatório e fichas", report.run),
 ]
 
 
