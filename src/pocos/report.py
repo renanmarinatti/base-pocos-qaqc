@@ -426,8 +426,7 @@ def render(con: duckdb.DuckDBPyConnection, wells: pd.DataFrame) -> str:
         f"{fmt(trivial)}; o resto depende de grafia norueguesa (Ø, Å), sufixos e unidades "
         "renomeadas.</p>",
         "<h2>Completude das curvas básicas</h2>",
-        "<p>Medida, não alterada: a base não preenche curva que falta. A reconstrução de curva "
-        "ausente é uma etapa à parte e fica marcada como estimativa.</p>",
+        "<p>Medida, não alterada: a base não preenche curva que falta.</p>",
         table(
             ["Curva", "Amostras com dado", "Poços com a curva em mais da metade do perfil"],
             [

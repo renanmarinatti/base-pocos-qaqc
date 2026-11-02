@@ -1,0 +1,21 @@
+# Roda o que dá para conferir sem baixar as fontes: estilo e testes. O pipeline completo
+# baixa cerca de 330 MB e fica para a máquina local (ver README).
+name: Verificar
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest

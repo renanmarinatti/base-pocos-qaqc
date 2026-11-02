@@ -105,6 +105,11 @@ Cada etapa também roda sozinha (`uv run python -m pocos.quality`, por exemplo).
 (`data/processed/base_pocos.duckdb`) e os LAS exportados ficam fora do Git e se recriam com o
 pipeline.
 
+Os números deste repositório são do snapshot da Sodir de 2026-10-31, com hashes em
+`data/raw/manifesto.csv`. A Sodir atualiza as tabelas todo dia e não guarda versões
+anteriores: quem rodar a coleta em outra data baixa um snapshot novo, e os números podem
+mudar, porque o cadastro oficial mudou.
+
 ## O que este case não cobre
 
 Petrel, OpenWorks e Techlog são software pago; a exportação em LAS e em tabela de topos é o
@@ -112,5 +117,5 @@ ponto de entrega para eles. Também não há nuvem: o pipeline roda numa máquin
 
 ## Licença
 
-O dado segue a licença das fontes: CC BY 4.0 (FORCE 2020) e NLOD 2.0 (Sodir). Ao reusar,
-cite as duas.
+O código está sob a licença [MIT](LICENSE). O dado segue a licença das fontes: CC BY 4.0
+(FORCE 2020) e NLOD 2.0 (Sodir). Ao reusar, cite as duas.

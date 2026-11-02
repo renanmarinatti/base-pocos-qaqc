@@ -6,8 +6,9 @@ __pycache__/
 .ruff_cache/
 
 # Dados: as fontes são públicas, mas pesadas (~350 MB) e se baixam de novo com um comando
-# (uv run python -m pocos.collect). Só saídas pequenas e publicáveis entram no Git.
-data/raw/
+# (uv run python -m pocos.collect). Só o manifesto e as saídas pequenas entram no Git.
+data/raw/*
+!data/raw/manifesto.csv
 data/interim/
 data/processed/*.duckdb
 
