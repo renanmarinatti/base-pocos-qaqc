@@ -56,7 +56,7 @@ Alguns achados:
 
 | Para | Abra |
 |---|---|
-| Visão geral, com números e figuras | [`docs/relatorio.html`](docs/relatorio.html) (baixar e abrir no navegador) |
+| Visão geral, com números e figuras | [relatório de qualidade](https://renanmarinatti.github.io/base-pocos-qaqc/relatorio.html) |
 | O que cada poço precisa de quem interpreta | [`docs/fichas/`](docs/fichas/README.md), uma ficha por poço, pior nota primeiro |
 | Por que cada escolha foi feita | [`docs/decisoes.md`](docs/decisoes.md), D01 a D11 |
 | Tabelas e colunas do banco | [`docs/dicionario.md`](docs/dicionario.md), gerado dos comentários do próprio banco |

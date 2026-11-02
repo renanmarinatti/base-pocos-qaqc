@@ -26,6 +26,8 @@ from pocos.standardize import INTERIM
 REPORT = Path("docs/relatorio.html")
 README = Path("README.md")
 SHEETS = Path("docs/fichas")
+# O relatório também abre fora do GitHub (Pages, arquivo local), onde .md não vira página.
+DOCS_URL = "https://github.com/renanmarinatti/base-pocos-qaqc/blob/main/docs"
 
 # Para a ficha, cada regra cai num de dois grupos: o dado está lá mas pede julgamento de
 # quem interpreta, ou o dado simplesmente falta. R12 não entra: a base já trocou o código
@@ -455,7 +457,7 @@ def render(con: duckdb.DuckDBPyConnection, wells: pd.DataFrame) -> str:
             ["Poço", "Nota", "Regras", "Achados de cadastro"],
             [
                 [
-                    f"<a href='fichas/{well_slug(w.poco)}.md'>{e(w.poco)}</a>",
+                    f"<a href='{DOCS_URL}/fichas/{well_slug(w.poco)}.md'>{e(w.poco)}</a>",
                     w.nota_qualidade,
                     rules_by_well.get(w.poco, ""),
                     e(w.achados_conciliacao or ""),
@@ -465,7 +467,7 @@ def render(con: duckdb.DuckDBPyConnection, wells: pd.DataFrame) -> str:
             {1},
         ),
         "<p>Uma ficha por poço, escrita para quem interpreta, em "
-        "<a href='fichas/README.md'>fichas/</a>.</p>",
+        f"<a href='{DOCS_URL}/fichas/README.md'>fichas/</a>.</p>",
         "<h2>Conciliação de topos</h2>",
         "<p>Os topos oficiais de hoje (Sodir) contra a cópia de 2020 que acompanha o FORCE e "
         "contra os rótulos de grupo e formação do próprio perfil. Tolerância de 1 m.</p>",
@@ -483,7 +485,7 @@ def render(con: duckdb.DuckDBPyConnection, wells: pd.DataFrame) -> str:
         figure("e2_md_tvd", "Profundidade medida × vertical: poços desviados."),
         "<h2>Decisões</h2>",
         "<p>Quando as fontes discordam, a escolha fica registrada com o que foi visto, o que se "
-        "decidiu, por quê e com que evidência (<a href='decisoes.md'>decisoes.md</a>).</p>",
+        f"decidiu, por quê e com que evidência (<a href='{DOCS_URL}/decisoes.md'>decisoes.md</a>).</p>",
         "<ul>"
         + "".join(f"<li><strong>{d}</strong> — {code(t)}</li>" for d, t in decisions)
         + "</ul>",
