@@ -485,7 +485,8 @@ def render(con: duckdb.DuckDBPyConnection, wells: pd.DataFrame) -> str:
         figure("e2_md_tvd", "Profundidade medida × vertical: poços desviados."),
         "<h2>Decisões</h2>",
         "<p>Quando as fontes discordam, a escolha fica registrada com o que foi visto, o que se "
-        f"decidiu, por quê e com que evidência (<a href='{DOCS_URL}/decisoes.md'>decisoes.md</a>).</p>",
+        "decidiu, por quê e com que evidência "
+        f"(<a href='{DOCS_URL}/decisoes.md'>decisoes.md</a>).</p>",
         "<ul>"
         + "".join(f"<li><strong>{d}</strong> — {code(t)}</li>" for d, t in decisions)
         + "</ul>",
